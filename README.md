@@ -4,7 +4,7 @@ Custom 21700 Li-ion battery pack for the [Quiver](https://github.com/Arrow-air/p
 
 ## Overview
 
-Longshot replaces the commercial Tattu battery with a custom-built 21700 cell pack, delivering significantly more energy in the same form factor. The pack is designed for field serviceability, open-source tooling, and compatibility with the existing Quiver power system.
+Longshot replaces the commercial Tattu battery with a custom-built 21700 cell pack, delivering significantly more energy in the same form factor. The pack is designed for open-source tooling and compatibility with the existing Quiver power system.
 
 ## Specifications
 
@@ -14,7 +14,6 @@ Longshot replaces the commercial Tattu battery with a custom-built 21700 cell pa
 | Cell format | 21700 Li-ion |
 | Energy | ~2,200–2,300 Wh |
 | Voltage | 14S (~58.8V charged, ~51.8V nominal) |
-| Connector | Samtec ET60S (shared charge/discharge) |
 | Communication | CAN H/L on main connector |
 | Environmental | IP54, 4× temperature sensors |
 | Structure | Printed cell holders + casing, aluminum reinforcement |
