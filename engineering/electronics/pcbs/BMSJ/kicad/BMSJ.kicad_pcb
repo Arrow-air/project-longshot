@@ -1,0 +1,29 @@
+(kicad_pcb
+    (version 20240108)
+    (generator "project-longshot")
+    (generator_version "0.1")
+    (general
+        (thickness 1.6)
+        (legacy_teardrops no)
+    )
+    (paper "A4")
+    (title_block
+        (title "BMSJ")
+        (company "Arrow")
+    )
+    (layers
+        (0 "F.Cu" signal)
+        (31 "B.Cu" signal)
+        (36 "B.SilkS" user "B.Silkscreen")
+        (37 "F.SilkS" user "F.Silkscreen")
+        (38 "B.Mask" user)
+        (39 "F.Mask" user)
+        (44 "Edge.Cuts" user)
+    )
+    (setup
+        (pad_to_mask_clearance 0)
+    )
+    (net 0 "")
+    (embedded_fonts no)
+    (uuid "c178b2f7-514a-4e3b-8483-eaf865b17090")
+)

@@ -1,0 +1,4 @@
+(sym_lib_table
+    (version 7)
+    (lib (name "BMSZ") (type "KiCad") (uri "${KIPRJMOD}/libs/BMSZ.kicad_sym") (options "") (descr "Project symbols"))
+)
