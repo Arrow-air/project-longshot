@@ -1,12 +1,12 @@
 (kicad_pcb
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(general
 		(thickness 1.6)
 		(legacy_teardrops no)
 	)
-	(paper "A4")
+	(paper "A3")
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -36,7 +36,20 @@
 	(setup
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
-		(tenting front back)
+		(tenting
+			(front yes)
+			(back yes)
+		)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(capping no)
+		(filling no)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -45,15 +58,12 @@
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
-			(dashed_line_dash_ratio 12.000000)
-			(dashed_line_gap_ratio 3.000000)
+			(dashed_line_dash_ratio 12)
+			(dashed_line_gap_ratio 3)
 			(svgprecision 4)
 			(plotframeref no)
 			(mode 1)
 			(useauxorigin no)
-			(hpglpennumber 1)
-			(hpglpenspeed 20)
-			(hpglpendiameter 15.000000)
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
 			(pdf_metadata yes)
@@ -77,6 +87,229 @@
 			(outputdirectory "")
 		)
 	)
-	(net 0 "")
+	(gr_line
+		(start 100 150)
+		(end 100 221)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "897561df-19ba-4900-a82f-6800a4f82319")
+	)
+	(gr_arc
+		(start 100 150)
+		(mid 100.585786 148.585786)
+		(end 102 148)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "8b2e9eb1-55a4-4416-b95d-134c7311edc4")
+	)
+	(gr_arc
+		(start 102 223)
+		(mid 100.585786 222.414214)
+		(end 100 221)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "96f90580-b765-4dda-9f9a-4ab0381dbe86")
+	)
+	(gr_line
+		(start 102 223)
+		(end 298 223)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "7b3cfff6-f8c7-4d91-8efd-8aa37669556d")
+	)
+	(gr_line
+		(start 140 148)
+		(end 102 148)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "bf9af727-a6fe-4558-88a9-3643bbf9ac2d")
+	)
+	(gr_line
+		(start 150 118.828427)
+		(end 150 138)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "cdb63774-7ba9-4df7-b824-6751f01f6941")
+	)
+	(gr_arc
+		(start 150 118.828427)
+		(mid 150.152232 118.063055)
+		(end 150.585786 117.414214)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "4b24ccf5-a421-4d4f-b118-fc9513c62579")
+	)
+	(gr_arc
+		(start 150 138)
+		(mid 147.071068 145.071068)
+		(end 140 148)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "949f4cef-15ce-4d6c-aa08-d799fcb8f81f")
+	)
+	(gr_line
+		(start 159.414214 108.585786)
+		(end 150.585786 117.414214)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "6cc87efe-a558-42a0-9b8a-2af458ba5fb9")
+	)
+	(gr_arc
+		(start 159.414214 108.585786)
+		(mid 160.063062 108.15225)
+		(end 160.828427 108)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "4ed8d971-9ab3-4f19-b5e7-8725bbadf4b0")
+	)
+	(gr_line
+		(start 239.171573 108)
+		(end 160.828427 108)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "0f214bcd-3a4b-4a81-ab24-6073f9a3aa6e")
+	)
+	(gr_arc
+		(start 239.171573 108)
+		(mid 239.936945 108.152232)
+		(end 240.585786 108.585786)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "eb0430b3-180a-4325-bd17-79602a02697b")
+	)
+	(gr_line
+		(start 249.414214 117.414214)
+		(end 240.585786 108.585786)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "6e4e2123-da97-4aac-a5ae-44e852bf6cec")
+	)
+	(gr_arc
+		(start 249.414214 117.414214)
+		(mid 249.84775 118.063062)
+		(end 250 118.828427)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "ef93735e-2f84-497f-996d-a895160b6360")
+	)
+	(gr_line
+		(start 250 138)
+		(end 250 118.828427)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "98c335d1-030d-420b-99f4-a1a3b5d61c5c")
+	)
+	(gr_arc
+		(start 260 148)
+		(mid 252.928932 145.071068)
+		(end 250 138)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "46747c16-ebaa-4f5a-a3f5-0f2cfaca3956")
+	)
+	(gr_line
+		(start 298 148)
+		(end 260 148)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "18d57db8-86cc-4494-9ce7-5f0a0282a3d7")
+	)
+	(gr_arc
+		(start 298 148)
+		(mid 299.414214 148.585786)
+		(end 300 150)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "e2071b97-e5f3-4323-b005-5fa48e339906")
+	)
+	(gr_arc
+		(start 300 221)
+		(mid 299.414214 222.414214)
+		(end 298 223)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "35242efa-9b26-46ec-925c-ae0831f596bf")
+	)
+	(gr_line
+		(start 300 221)
+		(end 300 150)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "ec423066-04a4-45e3-8f32-633c939e1a9c")
+	)
+	(group ""
+		(uuid "1b6c5249-91af-409f-a6a5-22a443baafd6")
+		(members "0f214bcd-3a4b-4a81-ab24-6073f9a3aa6e" "18d57db8-86cc-4494-9ce7-5f0a0282a3d7"
+			"35242efa-9b26-46ec-925c-ae0831f596bf" "46747c16-ebaa-4f5a-a3f5-0f2cfaca3956"
+			"4b24ccf5-a421-4d4f-b118-fc9513c62579" "4ed8d971-9ab3-4f19-b5e7-8725bbadf4b0"
+			"6cc87efe-a558-42a0-9b8a-2af458ba5fb9" "6e4e2123-da97-4aac-a5ae-44e852bf6cec"
+			"7b3cfff6-f8c7-4d91-8efd-8aa37669556d" "897561df-19ba-4900-a82f-6800a4f82319"
+			"8b2e9eb1-55a4-4416-b95d-134c7311edc4" "949f4cef-15ce-4d6c-aa08-d799fcb8f81f"
+			"96f90580-b765-4dda-9f9a-4ab0381dbe86" "98c335d1-030d-420b-99f4-a1a3b5d61c5c"
+			"bf9af727-a6fe-4558-88a9-3643bbf9ac2d" "cdb63774-7ba9-4df7-b824-6751f01f6941"
+			"e2071b97-e5f3-4323-b005-5fa48e339906" "eb0430b3-180a-4325-bd17-79602a02697b"
+			"ec423066-04a4-45e3-8f32-633c939e1a9c" "ef93735e-2f84-497f-996d-a895160b6360"
+		)
+	)
 	(embedded_fonts no)
 )
