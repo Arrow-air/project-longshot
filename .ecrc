@@ -1,6 +1,7 @@
 {
     "Exclude": [
-        "^engineering/electronics/pcbs/.*/kicad/.*\\.kicad_(pcb|pro|sch|sym)$",
-        "^engineering/electronics/pcbs/.*/kicad/libs/.*\\.kicad_mod$"
+        "^engineering/electronics/pcbs/.*/kicad/.*\\.kicad_(pcb|prl|pro|sch|sym)$",
+        "^engineering/electronics/pcbs/.*/kicad/libs/.*\\.kicad_mod$",
+        "^engineering/electronics/pcbs/.*/kicad/.*-backups/.*\\.zip$"
     ]
 }
