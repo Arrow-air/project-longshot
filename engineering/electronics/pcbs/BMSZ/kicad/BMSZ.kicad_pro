@@ -429,11 +429,14 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
+      "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
+      "isolated_pin_label": "warning",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
@@ -456,6 +459,7 @@
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
       "single_global_label": "ignore",
+      "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -517,6 +521,10 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "annotation": {
+      "method": 0,
+      "sort_order": 1
+    },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -596,6 +604,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
+      "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -619,6 +628,7 @@
     "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
+    "reuse_designators": true,
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -632,114 +642,16 @@
       {
         "filename": "BMSZ.kicad_sch",
         "name": "BMSZ",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "2e7a8612-84b6-48bc-808d-73f9aa4adf59"
       }
-    ]
+    ],
+    "used_designators": "",
+    "variants": []
   },
   "sheets": [
     [
       "2e7a8612-84b6-48bc-808d-73f9aa4adf59",
-      "Root"
-    ],
-    [
-      "e95ab1c6-8240-4c7d-b64f-48df0496414c",
-      "cell1_1"
-    ],
-    [
-      "90ff4aeb-0a67-40e4-b438-24fe05a36a92",
-      "cell2_1"
-    ],
-    [
-      "fdf0b6b7-a562-48c0-ac05-ba8393b996b9",
-      "cell3_1"
-    ],
-    [
-      "5a672d50-f727-453f-8d51-0fa98c145a42",
-      "cell4_1"
-    ],
-    [
-      "098b96a5-ce7b-44d9-bddf-b9a908ad5e8b",
-      "cell5_1"
-    ],
-    [
-      "c3bc2a89-7ee3-4dd3-b377-a98123c00129",
-      "cell6_1"
-    ],
-    [
-      "f1a0a730-0c1d-4a8a-ac7f-44edf85b955b",
-      "cell7_1"
-    ],
-    [
-      "50093d14-8b67-4061-acc8-78a6801a5ae9",
-      "cell8_1"
-    ],
-    [
-      "4b6f53b3-0085-4287-8ee9-52adbb3b920a",
-      "cell9_1"
-    ],
-    [
-      "c026f80a-4ea2-4f0f-a3da-f53e6ed03725",
-      "cell10_1"
-    ],
-    [
-      "558ad403-9c77-496e-ada7-4a474c631b06",
-      "cell11_1"
-    ],
-    [
-      "0fb1c691-6f56-4891-a893-f1c0160288e6",
-      "cell12_1"
-    ],
-    [
-      "6b773ba5-d661-4c67-8f60-c27b534898a2",
-      "cell1_2"
-    ],
-    [
-      "4294cdfd-f283-4a44-b686-63829e4b13ad",
-      "cell2_2"
-    ],
-    [
-      "c2692cf0-2feb-4697-8025-5e3ef31a7c24",
-      "cell3_2"
-    ],
-    [
-      "bcd50050-86ad-4453-94f6-0a722759cfdc",
-      "cell4_2"
-    ],
-    [
-      "ab07cbf6-252e-4c89-bc33-8ebd0655e5ec",
-      "cell5_2"
-    ],
-    [
-      "c8b07aac-46d5-4dac-8a09-0b208791099c",
-      "cell6_2"
-    ],
-    [
-      "07c3c723-af5b-4362-aabf-e5cb2543fe77",
-      "cell7_2"
-    ],
-    [
-      "df67b349-c88e-4c81-82e7-493388af35f2",
-      "cell8_2"
-    ],
-    [
-      "92745807-31d0-492e-8938-047b281e207c",
-      "cell9_2"
-    ],
-    [
-      "0c71aab7-7884-4daa-b8ef-0af109bbfef5",
-      "cell10_2"
-    ],
-    [
-      "b0db2177-ecf3-47e3-b66e-b16d37afea1c",
-      "cell11_2"
-    ],
-    [
-      "759bdf21-ca7c-4fcc-aab8-33fb6e6b27f9",
-      "cell12_2"
-    ],
-    [
-      "b79b3da4-fc8c-41d2-9278-df28dbeb60aa",
-      "MCU"
+      "BMSZ"
     ]
   ],
   "text_variables": {},
