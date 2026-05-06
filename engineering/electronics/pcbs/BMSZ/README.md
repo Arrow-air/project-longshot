@@ -7,7 +7,7 @@ Open-source Battery Management System designed for high-voltage lithium battery 
 
 This project was imported from `Julius-eng/Vector-BMS` and adapted into the Project Longshot engineering tree.
 
-- `kicad/` — KiCad project, schematic sheets, PCB, and project-local library tables.
+- `kicad/` — KiCad project, single-sheet schematic, PCB, and project-local library tables.
 - `kicad/libs/BMSZ.pretty/` — project-local footprints imported from the source repository.
 - `firmware/vesc_bms_hw/` — VESC BMS hardware configuration renamed to `hw_bmsz`.
 - `docs/`, `images/`, and `manufacturing/` — placeholders for supporting design notes, renders, and fab outputs.
@@ -27,23 +27,7 @@ BMSZ is a modular BMS supporting up to **24 series cells** (24S) with:
 
 ### Schematic Structure
 
-```
-BMSZ.kicad_sch (Main)
-├── Power management
-├── Cell monitoring (LTC6811 × 2)
-├── Current sensing (INA226)
-├── High-side switching
-└── Connectors
-
-MCU.kicad_sch
-├── STM32L476 microcontroller
-├── CAN interface (isolated via ISO1050)
-├── isoSPI interface (LTC6820)
-└── USB interface (CP2104)
-
-cell.kicad_sch / cell2.kicad_sch
-└── Per-cell balancing circuits (×12 each)
-```
+`BMSZ.kicad_sch` is currently reduced to a single basic-layout schematic. The previous copied hierarchy (`MCU.kicad_sch`, `cell.kicad_sch`, and `cell2.kicad_sch`) has been removed from this simplified layout.
 
 ### Key Components
 
