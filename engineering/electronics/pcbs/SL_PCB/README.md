@@ -28,7 +28,7 @@ Battery high-current terminal → AMX-150 fuse → Battery connector
 Design notes:
 
 - Use copper geometry appropriate for the expected current path.
-- Keep the fuse accessible/inspectable where practical.
+- Keep the fuse accessible and easy to inspect where practical.
 - Do not add MOSFETs, precharge circuitry, current sensing, or BMS switching logic to this PCB unless the project scope changes.
 - Include a normal exposed charging connector for the TA3200 charge cable connection.
 - Maintain clear creepage/clearance and mechanical separation between the high-current/charging path and low-voltage sense routing.
@@ -68,14 +68,14 @@ Connector notes from the reference images:
 - The charger side view shows a recessed connector area with a balance port and a separate orange main charge port.
 - The balance cable uses black, flat, shrouded connector housings.
 - The connectors appear keyed/polarized with molded side features.
-- The exact connector series, pin pitch, pin numbering, and polarity must be verified from the actual charger/cable, charger documentation, or connector datasheet before fabrication.
-- Do not rely on the images alone for pinout or mechanical footprint selection.
+- The exact connector series, pin pitch, pin numbers, and polarity must be verified from the actual charger/cable, charger documentation, or connector datasheet before fabrication.
+- Do not rely on the images alone for pin mapping or mechanical footprint selection.
 
 ## Critical requirements
 
-- The voltage sense pinout must be correct before the board is connected to a charger.
+- The voltage sense pin mapping must be correct before the board is connected to a charger.
 - The four 6-pin JST inputs from the voltage sensing boards must map cleanly to the charger balancing connector.
-- Connector orientation and pin numbering must be documented in the schematic and README once finalized.
+- Connector orientation and pin numbers must be documented in the schematic and README once finalized.
 - The AMX-150 fuse must be in the high-current path.
 - The board must include a normal exposed charging connector for a dedicated cable to the TA3200 charger.
 - No MOSFET or BMS functionality should be added to this simple-layout board.
