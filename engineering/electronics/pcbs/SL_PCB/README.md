@@ -1,221 +1,112 @@
-# SL_PCB
+# SL_PCB — Simple Layout Battery Connector PCB
 
-Open-source Battery Management System designed for high-voltage lithium battery packs with VESC integration.
+`SL_PCB` is the **dummy/simple-layout PCB** for the Longshot battery. It is not a full BMS board.
 
+The purpose of this board is to:
 
-## Longshot Repository Layout
+1. Route high-current power from the battery to the battery connector.
+2. Place an **AMX-150 fuse** in the high-current path.
+3. Provide a normal exposed charging connector that can be connected to the **Tattu TA3200 charger** with a dedicated charge cable.
+4. Collect cell-voltage sense lines from the four voltage sensing PCBs.
+5. Expose those cell-voltage sense lines through a connector compatible with the balancing cable of a **Tattu TA3200 charger**.
 
-This project was imported from `Julius-eng/Vector-BMS` and adapted into the Project Longshot engineering tree.
+This board intentionally does **not** include MOSFET switching, active balancing, MCU control, or BMS firmware functionality.
 
-- `kicad/` — KiCad project, single-sheet schematic, PCB, and project-local library tables.
-- `kicad/libs/SL_PCB.pretty/` — project-local footprints imported from the source repository.
-- `firmware/vesc_bms_hw/` — VESC BMS hardware configuration renamed to `hw_sl_pcb`.
-- `docs/`, `images/`, and `manufacturing/` — placeholders for supporting design notes, renders, and fab outputs.
+## Current role in Longshot
 
-## Overview
+The SL_PCB is a low-complexity bridge board for early Longshot battery testing and packaging work. It should keep the electrical path understandable and easy to inspect while the full BMS architecture is still being developed separately.
 
-SL_PCB is a modular BMS supporting up to **24 series cells** (24S) with:
-- Active cell monitoring and balancing
-- High-current sensing (up to 120A)
-- CAN bus communication (VESC-compatible)
-- USB interface for configuration
-- Isolated design for safety
+## High-current path
 
-**Firmware:** This project uses [VESC BMS firmware](https://github.com/vedderb/vesc_bms_fw) for full VESC Tool integration.
+The high-current path should route battery power directly to the battery connector, with one fuse in series. The board should also expose a normal charging connector that can be connected to the TA3200 charger using a dedicated charge cable.
 
-## Hardware Architecture
-
-### Schematic Structure
-
-`SL_PCB.kicad_sch` is currently reduced to a single basic-layout schematic. The previous copied hierarchy (`MCU.kicad_sch`, `cell.kicad_sch`, and `cell2.kicad_sch`) has been removed from this simplified layout.
-
-### Key Components
-
-| Component | Part Number | Function |
-|-----------|-------------|----------|
-| MCU | STM32L476RGT6 | ARM Cortex-M4, 80MHz, low power |
-| Cell Monitor | LTC6811-1 (×2) | 12-cell stack monitor, ±1.2mV accuracy |
-| isoSPI | LTC6820 | Isolated SPI for LTC6811 daisy chain |
-| Current Sensor | INA226 | 16-bit I2C power monitor |
-| Shunt Resistor | WSLP5931L1000FEA | 0.1mΩ, 15W, ±1% |
-| CAN Transceiver | ISO1050DUBR | Isolated CAN 2.0B |
-| USB-UART | CP2104 | USB to UART bridge |
-| DC-DC | LM5165 | Wide-input buck converter |
-| Balance FET | DMG2305UX-7 | P-ch MOSFET, SOT-23 |
-| Balance Resistor | CRCW25123R90JNEA | 3.9Ω, 1W, 2512 |
-| High-side Switch | IRFL4105PBF | N-ch logic-level MOSFET |
-
-### Cell Configuration
-
-- **Maximum cells:** 24S (two LTC6811 in daisy chain)
-- **Cell voltage range:** 0V to 5V per cell (compatible with most Li-ion/LiFePO4)
-- **Balance current:** ~1A per cell @ 4.2V (passive balancing via 3.9Ω resistor)
-- **Temperature monitoring:** 3× NTC thermistors
-
-### Current Sensing
-
-- **Shunt:** 0.1mΩ (WSLP5931, 15×7.6mm)
-- **Max continuous:** 120A
-- **Sensor:** INA226 (16-bit I2C power monitor)
-- **Resolution:** ~1mA per LSB
-- **Power dissipation:** 1.44W at 120A
-
-## VESC BMS Firmware
-
-SL_PCB uses the [VESC BMS firmware](https://github.com/vedderb/vesc_bms_fw) which provides:
-
-- ✅ Cell monitoring and balancing
-- ✅ Charge control with CC/CV support
-- ✅ Low-power sleep mode
-- ✅ CAN-bus integration with VESC motor controllers
-- ✅ USB configuration via VESC Tool
-- ✅ Ah and Wh counting
-- ✅ Distributed balancing across multiple BMSes
-- ✅ Bootloader and firmware update support
-
-### Building Firmware
-
-#### Prerequisites
-
-1. **ARM GCC Toolchain**
-   ```bash
-   # Ubuntu/Debian
-   sudo apt install gcc-arm-none-eabi
-
-   # macOS
-   brew install arm-none-eabi-gcc
-
-   # Windows: Download from ARM website
-   ```
-
-2. **ChibiOS** (included as submodule in VESC BMS)
-
-3. **Make**
-
-#### Clone and Build
-
-```bash
-# Clone VESC BMS firmware
-git clone --recursive https://github.com/vedderb/vesc_bms_fw.git
-cd vesc_bms_fw
-
-# Copy SL_PCB hardware config
-cp /path/to/project-longshot/engineering/electronics/pcbs/SL_PCB/firmware/vesc_bms_hw/hw_sl_pcb.h hwconf/
-cp /path/to/project-longshot/engineering/electronics/pcbs/SL_PCB/firmware/vesc_bms_hw/hw_sl_pcb.c hwconf/
-
-# Build for SL_PCB
-make HWCONF=hw_sl_pcb
-
-# Output: build/vesc_bms_fw.bin
+```text
+Battery high-current terminal → AMX-150 fuse → Battery connector
+                                      └→ Exposed charging connector for TA3200 charge cable
 ```
 
-#### Flashing
+Design notes:
 
-Using ST-Link:
-```bash
-# Flash via OpenOCD
-openocd -f interface/stlink.cfg -f target/stm32l4x.cfg \
-    -c "program build/vesc_bms_fw.bin 0x08000000 verify reset exit"
+- Use copper geometry appropriate for the expected current path.
+- Keep the fuse accessible and easy to inspect where practical.
+- Do not add MOSFETs, precharge circuitry, current sensing, or BMS switching logic to this PCB unless the project scope changes.
+- Include a normal exposed charging connector for the TA3200 charge cable connection.
+- Maintain clear creepage/clearance and mechanical separation between the high-current/charging path and low-voltage sense routing.
 
-# Or via st-flash
-st-flash write build/vesc_bms_fw.bin 0x08000000
+## Cell-voltage sensing interface
+
+Cell voltages are collected by the voltage sensing PCBs from issue #14:
+
+- `VS_PCB_TR`
+- `VS_PCB_TL`
+- `VS_PCB_BR`
+- `VS_PCB_BL`
+
+Each voltage sensing PCB connects to SL_PCB through a **6-pin JST connector**:
+
+- 3–4 cell voltage sense lines, depending on the board
+- `GND`
+- `T_SENSE` for the temperature sensor connection
+
+Related issue: [#14 — Design battery voltage sensing boards](https://github.com/Arrow-air/project-longshot/issues/14)
+
+## Charger connectors
+
+SL_PCB should expose both charger-facing connections needed by the **Tattu TA3200 charger**:
+
+1. A main charging connector for the dedicated TA3200 charge cable.
+2. A balancing connector that mates with the TA3200 balancing cable and carries the collected cell-voltage sense lines.
+
+Reference images:
+
+![Tattu TA3200 charger side connector reference](images/ta3200-side-view-connector-reference.jpg)
+
+![Tattu TA3200 balancing cable reference](images/ta3200-balancing-cable-reference.jpg)
+
+Connector notes from the reference images:
+
+- The charger side view shows a recessed connector area with a balance port and a separate orange main charge port.
+- The balance cable uses black, flat, shrouded connector housings.
+- The connectors appear keyed/polarized with molded side features.
+- The exact connector series, pin pitch, pin numbers, and polarity must be verified from the actual charger/cable, charger documentation, or connector datasheet before fabrication.
+- Do not rely on the images alone for pin mapping or mechanical footprint selection.
+
+## Critical requirements
+
+- The voltage sense pin mapping must be correct before the board is connected to a charger.
+- The four 6-pin JST inputs from the voltage sensing boards must map cleanly to the charger balancing connector.
+- Connector orientation and pin numbers must be documented in the schematic and README once finalized.
+- The AMX-150 fuse must be in the high-current path.
+- The board must include a normal exposed charging connector for a dedicated cable to the TA3200 charger.
+- No MOSFET or BMS functionality should be added to this simple-layout board.
+
+## KiCad project
+
+Open the project with KiCad 9.0+:
+
+```text
+engineering/electronics/pcbs/SL_PCB/kicad/SL_PCB.kicad_pro
 ```
 
-Using VESC Tool (for updates):
-1. Connect SL_PCB via USB
-2. Open VESC Tool
-3. Go to **Firmware** → **Bootloader**
-4. Select `vesc_bms_fw.bin` and upload
+Expected project outputs:
 
-### Hardware Configuration
+- Updated schematic showing:
+  - Battery high-current input/output path
+  - AMX-150 fuse
+  - Exposed TA3200 charge-cable connector
+  - 4× 6-pin JST voltage-sense inputs
+  - TA3200-compatible balancing connector output
+- Updated PCB layout with the corresponding connector placement and high-current routing
+- Fabrication outputs when the layout is ready for review/manufacture
 
-The SL_PCB hardware config is in `firmware/vesc_bms_hw/`:
+## Open items
 
-```
-firmware/vesc_bms_hw/
-├── hw_sl_pcb.h     # Pin definitions, parameters
-└── hw_sl_pcb.c     # Initialization, INA226 driver
-```
-
-Key parameters in `hw_sl_pcb.h`:
-
-```c
-#define HW_CELLS_SERIES         24          // Cell count
-#define HW_SHUNT_RES            (0.1e-3)    // Shunt resistance
-#define HW_INA226_I2C_ADDR      0x40        // INA226 address
-```
-
-### VESC Tool Configuration
-
-1. Connect SL_PCB via USB
-2. Open VESC Tool and connect
-3. Go to **VESC BMS** tab
-4. Configure:
-   - Cell count: 24
-   - Balance start voltage
-   - Balance delta voltage
-   - Current limits
-   - Temperature limits
-5. **Write Configuration**
-
-## MCU Pin Mapping
-
-| Function | STM32 Pin | Notes |
-|----------|-----------|-------|
-| SPI1_NSS (LTC6820) | PA4 | Directly driven CS |
-| SPI1_SCK | PA5 | isoSPI clock |
-| SPI1_MISO | PA6 | isoSPI data in |
-| SPI1_MOSI | PA7 | isoSPI data out |
-| I2C1_SDA (INA226) | PB7 | Current sensor |
-| I2C1_SCL | PB6 | Current sensor |
-| CAN1_RX | PB8 | Via ISO1050 |
-| CAN1_TX | PB9 | Via ISO1050 |
-| USART1_TX | PA9 | Via CP2104 to USB |
-| USART1_RX | PA10 | Via CP2104 to USB |
-| CHG_EN | PC6 | Charge enable |
-| DSG_EN | PC7 | Discharge enable |
-| PCHG_EN | PC8 | Precharge enable |
-| LED_RED | PA0 | Status LED |
-| LED_GREEN | PA1 | Power LED |
-| BUZZER | PA8 | Audible alarm |
-
-## Connectors
-
-| Connector | Function |
-|-----------|----------|
-| J1 | Main battery input |
-| J2 | Charger input |
-| J3 | OLED display (I2C) |
-| J12 | CAN bus |
-| J14 | Serial/debug |
-| J17 | Power button |
-| J24 | USB (CP2104) |
-
-## Hardware Design
-
-### Prerequisites
-
-- KiCad 9.0+ for schematic/PCB editing
-
-### Opening the Project
-
-1. Clone the repository
-2. Open `kicad/SL_PCB.kicad_pro` in KiCad
-3. Review schematic and PCB layout
-4. Generate BOM and fabrication files
+- Confirm exact TA3200 balancing connector part number and footprint.
+- Confirm exact TA3200 charge connector/cable interface and footprint.
+- Confirm the final sense-line ordering from each `VS_PCB_*` board.
+- Confirm the complete mapping from the four 6-pin JST inputs to the TA3200 balancing connector.
+- Confirm mechanical placement of connectors relative to the Longshot battery assembly.
 
 ## License
 
 Hardware: Open Source (license TBD)
-Firmware: GNU GPL v3 (VESC BMS)
-
-## Contributing
-
-Contributions welcome! Please open an issue or pull request.
-
-## Acknowledgments
-
-- [Benjamin Vedder](https://github.com/vedderb) for VESC BMS firmware
-- VESC Project for the open-source motor controller ecosystem
-- Analog Devices for LTC6811 reference designs
-- Arrow DAO community
