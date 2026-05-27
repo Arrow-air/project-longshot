@@ -6,7 +6,7 @@ The purpose of this board is to:
 
 1. Route high-current power from the battery to the battery connector.
 2. Place an **AMX-150 fuse** in the high-current path.
-3. Provide a normal exposed charging connector that can be attached to the **Tattu TA3200 charger** with a designated charge cable.
+3. Provide a normal exposed charging connector that can be connected to the **Tattu TA3200 charger** with a dedicated charge cable.
 4. Collect cell-voltage sense lines from the four voltage sensing PCBs.
 5. Expose those cell-voltage sense lines through a connector compatible with the balancing cable of a **Tattu TA3200 charger**.
 
@@ -18,7 +18,7 @@ The SL_PCB is a low-complexity bridge board for early Longshot battery testing a
 
 ## High-current path
 
-The high-current path should route battery power directly to the battery connector, with one fuse in series. The board should also expose a normal charging connector that can be connected to the TA3200 charger using a designated charge cable.
+The high-current path should route battery power directly to the battery connector, with one fuse in series. The board should also expose a normal charging connector that can be connected to the TA3200 charger using a dedicated charge cable.
 
 ```text
 Battery high-current terminal → AMX-150 fuse → Battery connector
@@ -50,20 +50,26 @@ Each voltage sensing PCB connects to SL_PCB through a **6-pin JST connector**:
 
 Related issue: [#14 — Design battery voltage sensing boards](https://github.com/Arrow-air/project-longshot/issues/14)
 
-## Charger balancing connector
+## Charger connectors
 
-SL_PCB should expose the collected cell-voltage sense lines through a connector that mates with the balancing cable used by the **Tattu TA3200 charger**.
+SL_PCB should expose both charger-facing connections needed by the **Tattu TA3200 charger**:
 
-Reference image:
+1. A main charging connector for the dedicated TA3200 charge cable.
+2. A balancing connector that mates with the TA3200 balancing cable and carries the collected cell-voltage sense lines.
+
+Reference images:
+
+![Tattu TA3200 charger side connector reference](images/ta3200-side-view-connector-reference.jpg)
 
 ![Tattu TA3200 balancing cable reference](images/ta3200-balancing-cable-reference.jpg)
 
-Connector notes from the reference image:
+Connector notes from the reference images:
 
-- The cable uses black, flat, single-row, shrouded connector housings.
-- The connector appears keyed/polarized with molded side features.
-- The exact connector series, pin pitch, pin numbering, and polarity must be verified from the actual cable, charger documentation, or connector datasheet before fabrication.
-- Do not rely on the image alone for pinout or mechanical footprint selection.
+- The charger side view shows a recessed connector area with a balance port and a separate orange main charge port.
+- The balance cable uses black, flat, shrouded connector housings.
+- The connectors appear keyed/polarized with molded side features.
+- The exact connector series, pin pitch, pin numbering, and polarity must be verified from the actual charger/cable, charger documentation, or connector datasheet before fabrication.
+- Do not rely on the images alone for pinout or mechanical footprint selection.
 
 ## Critical requirements
 
@@ -71,7 +77,7 @@ Connector notes from the reference image:
 - The four 6-pin JST inputs from the voltage sensing boards must map cleanly to the charger balancing connector.
 - Connector orientation and pin numbering must be documented in the schematic and README once finalized.
 - The AMX-150 fuse must be in the high-current path.
-- The board must include a normal exposed charging connector for a designated cable to the TA3200 charger.
+- The board must include a normal exposed charging connector for a dedicated cable to the TA3200 charger.
 - No MOSFET or BMS functionality should be added to this simple-layout board.
 
 ## KiCad project
