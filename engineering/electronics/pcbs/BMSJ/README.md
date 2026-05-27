@@ -223,7 +223,7 @@ Key parameters in `hw_bmsj.h`:
 ## License
 
 Hardware: Open Source (license TBD)
-Firmware: [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.html) (VESC BMS)
+Firmware: GNU GPL v3 (VESC BMS)
 
 ## Contributing
 
