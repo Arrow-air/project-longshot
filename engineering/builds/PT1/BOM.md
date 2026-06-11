@@ -39,6 +39,26 @@ Allocated to the 126 cells installed in the 14S 9P PT1 pack: **€770.75** (abou
 
 The remaining 14 cells represent **€85.64** (about **$97.96**) of spares/overage from the order.
 
+### Cell selection rationale
+
+The BAK 65E cells were relatively expensive for this PT1 order, but Julius selected them because they were in stock and close to the best-performing 21700 cells available at order time. Julius initially tried to source Reliance RH60 cells, which were around $3/cell, but those were only available at the end of June.
+
+Julius shared the following 10A discharge comparison, measured as energy delivered to 2.8V:
+
+| Cell | Energy to 2.8V at 10A |
+| --- | ---: |
+| BAK 65E | 20.18Wh |
+| Reliance RS60 | 19.25Wh |
+| Linkdata 60P | 18.69Wh |
+| Reliance RH60 | 18.56Wh |
+| FEB 21700G (58E) | 18.53Wh |
+| Vapcell F63 | 18.19Wh |
+| Amprius INR21700/65 (SA112) | 18.16Wh |
+| EVE 58E | 17.88Wh |
+| Vapcell F60 | 17.86Wh |
+| Samsung 58E | 17.56Wh |
+| LG M58T | 17.22Wh |
+
 ## Copper busbars
 
 Source: redacted Supro Manufacturing quotation shared by Julius in `#project-longshot-general` on 2026-06-11. Detailed quote and per-part breakdown are in [`design/copper-busbars/order-copper-longshot-pt1/`](design/copper-busbars/order-copper-longshot-pt1/).
