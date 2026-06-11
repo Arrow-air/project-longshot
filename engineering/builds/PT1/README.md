@@ -2,6 +2,10 @@
 
 This directory records design and manufacturing artifacts that are locked or used for the Longshot PT1 build.
 
+## Build records
+
+- [`BOM.md`](BOM.md) — PT1 bill-of-materials and cost notes for ordered cells and copper busbars.
+
 ## Design artifacts
 
 - [`design/copper-busbars/order-copper-longshot-pt1/`](design/copper-busbars/order-copper-longshot-pt1/) — locked copper busbar DXF order set received from Julius on 2026-06-11.
