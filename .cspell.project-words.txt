@@ -269,3 +269,5 @@ XMER
 YDRC
 YDRCT
 Zener
+Supro
+geschwarzt
