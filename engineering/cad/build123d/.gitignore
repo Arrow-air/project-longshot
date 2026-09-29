@@ -1,0 +1,5 @@
+# Custom-part reference solids extracted from the Fusion STEP (validation only).
+reference/.cache/
+# Full assembly export, about 85 MB - regenerate with `python -m longshot.assembly`.
+exports/step/Longshot_Main_Assembly.step
+__pycache__/
