@@ -20,7 +20,7 @@ Everything here is derived from Julius's Fusion 360 export `Longshot_Main_Assemb
 | [`src/longshot/placements.json`](src/longshot/placements.json) | Fusion assembly tree, every item and leaf instance with its global 4×4 location, and reference metrics per part. |
 | [`src/longshot/catalog.py`](src/longshot/catalog.py) | BOM descriptions, categories, make/buy and materials. |
 | [`reference/cots/`](reference/cots/) | Gzip-compressed reference STEPs for purchased/PCB parts, in their own component frame. |
-| [`exports/step/`](exports/step/), [`exports/stl/`](exports/stl/) | Per-part STEP and STL exports of every custom part, generated from the build123d code. |
+| [`exports/step/`](exports/step/), [`exports/stl/`](exports/stl/) | Per-part STEP and gzip-compressed STL exports of every custom part, generated from the build123d code. |
 | [`validation/results.md`](validation/results.md) | Per-part comparison of the build123d parts against the Fusion solids. |
 | [`BOM.md`](BOM.md), [`BOM.csv`](BOM.csv) | Bill of materials for one pack, counted from the Fusion tree. Purchase records and costs stay in the [PT1 BOM](../../builds/PT1/BOM.md). |
 | [`tools/`](tools/) | Scripts to extract references, validate parts, generate the BOM and render the preview. |

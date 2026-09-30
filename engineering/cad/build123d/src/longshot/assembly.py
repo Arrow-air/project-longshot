@@ -19,6 +19,8 @@ the full assembly goes to ``exports/step/Longshot_Main_Assembly.step``.
 from __future__ import annotations
 
 import argparse
+import gzip
+import shutil
 import time
 from pathlib import Path
 
@@ -97,14 +99,21 @@ def check_bbox(assembly: Compound) -> tuple[bool, list[float], list[float]]:
 
 
 def export_parts() -> list[Path]:
-    """One STL and one STEP per custom part number, in its own component frame."""
+    """One STL and one STEP per custom part number, in its own component frame.
+
+    STLs are gzip-compressed: the repo spell check reads binary STL as text.
+    """
     STL_DIR.mkdir(parents=True, exist_ok=True)
     STEP_DIR.mkdir(parents=True, exist_ok=True)
     written = []
     for key in parts.PART_NUMBERS:
         shape = part_shape(key)
-        stl = STL_DIR / f"{key}.stl"
-        export_stl(shape, stl, tolerance=0.05, angular_tolerance=0.2)
+        plain = STL_DIR / f"{key}.stl"
+        export_stl(shape, plain, tolerance=0.05, angular_tolerance=0.2)
+        stl = STL_DIR / f"{key}.stl.gz"
+        with plain.open("rb") as src, gzip.GzipFile(stl, "wb", mtime=0) as dst:
+            shutil.copyfileobj(src, dst)
+        plain.unlink()
         step = STEP_DIR / f"{key}.step"
         export_step(shape, step)
         written += [stl, step]

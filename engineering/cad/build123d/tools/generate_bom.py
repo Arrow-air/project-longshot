@@ -82,7 +82,7 @@ def main() -> None:
         src = f"src/longshot/{info['source']}"
         sources = [src] + [f"src/longshot/{s}" for s in info.get("extra_sources", [])]
         if info["category"] in (catalog.CUSTOM, catalog.BUSBAR, catalog.CELL):
-            refs = [f"exports/stl/{line}.stl", f"exports/step/{line}.step"]
+            refs = [f"exports/stl/{line}.stl.gz", f"exports/step/{line}.step"]
             status = validation_text(results, line)
             for extra in per_key[line]:
                 if extra != line:
