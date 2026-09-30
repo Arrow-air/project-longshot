@@ -39,7 +39,8 @@ LINES: dict[str, dict] = {
     "PW-BUS-003-Bridge_1": dict(
         description="Series bridge busbar between cell groups; qty includes the 6 instances of Fusion "
         "component PW-BUS-003-Bridge_1_Mirror (same outline and weld tongues, locating ear at the "
-        "opposite end)",
+        "opposite end). One laser-cut flat pattern, turned 180° for the top or bottom of the pack; tongue "
+        "bends are formed during spot welding",
         category=BUSBAR, make_buy="make", material=COPPER_ORDER,
         source="parts/pw_bus_003_bridge_1.py",
         extra_sources=["parts/pw_bus_003_bridge_1_mirror.py"],
@@ -131,7 +132,7 @@ LINES: dict[str, dict] = {
         source="cots/et60s_d06_0_00_d06_l_v1_s.py",
     ),
     "EL-FUSE-001-AMXL-200": dict(
-        description="AMXL-200 fuse. The SL_PCB README specifies an AMX-150 fuse; the CAD uses AMXL-200",
+        description="AMXL-200 main fuse (default). AMX-150, as in the SL_PCB README, also fits (same size)",
         category=COTS, make_buy="buy", material="", source="cots/el_fuse_001_amxl_200.py",
     ),
     "FUSE-SMD_L10_0-W5_0-H3_8": dict(
