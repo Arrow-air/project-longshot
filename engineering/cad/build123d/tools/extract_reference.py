@@ -4,13 +4,13 @@
 Reads Julius's ``Longshot_Main_Assembly.step`` and writes:
 
 * ``src/longshot/placements.json`` - the full Fusion assembly tree (labels,
-  relative locations, part keys), every item and leaf instance with its
-  global 4x4 location matrix, and per-part reference metrics (bbox, volume,
-  area) used by ``validate_parts.py``.
+    relative locations, part keys), every item and leaf instance with its
+    global 4x4 location matrix, and per-part reference metrics (bbox, volume,
+    area) used by ``validate_parts.py``.
 * ``reference/cots/<part>.step.gz`` - gzip-compressed reference STEP for each
-  purchased / PCB-derived part (committed).
+    purchased / PCB-derived part (committed).
 * ``reference/.cache/custom/<part>.step`` - reference solids for custom parts,
-  used only to validate the parametric rebuilds (git-ignored).
+    used only to validate the parametric rebuilds (git-ignored).
 
 Usage::
 
@@ -270,7 +270,7 @@ def main() -> None:
     PLACEMENTS_FILE.write_text(dump_json(meta), encoding="utf-8")
     counts = Counter(i["part"] for i in items)
     print(f"wrote {PLACEMENTS_FILE.relative_to(BUILD123D_DIR)}: {len(items)} items, "
-          f"{len(leaves)} leaves, {len(parts)} unique parts")
+            f"{len(leaves)} leaves, {len(parts)} unique parts")
     for key, n in sorted(counts.items()):
         print(f"  {n:4d} x {key}")
     for w in warnings:

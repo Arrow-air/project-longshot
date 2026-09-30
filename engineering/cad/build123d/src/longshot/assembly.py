@@ -29,7 +29,7 @@ from .reference import EXPORT_DIR, matrix_to_location, placements
 
 STEP_DIR = EXPORT_DIR / "step"
 STL_DIR = EXPORT_DIR / "stl"
-# Not committed (about 85 MB, mostly vendor models); regenerate with this module.
+# Not committed (about 75 MB, mostly vendor models); regenerate with this module.
 ASSEMBLY_STEP = STEP_DIR / "Longshot_Main_Assembly.step"
 BBOX_TOL = 0.5  # mm, rebuilt vs reference assembly bbox
 
