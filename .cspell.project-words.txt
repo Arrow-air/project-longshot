@@ -309,3 +309,6 @@ Zener
 zmax
 zmin
 ztop
+Licence
+licence
+licences

@@ -36,4 +36,8 @@ Project approved via [Snapshot vote](https://snapshot.box/#/s:arrowair.eth/propo
 
 ## License
 
+Hardware designs (CAD files including the build123d source, schematics, PCB layouts, drawings, manufacturing files and documentation) are licensed under the **[CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S v2)](LICENSE)**. The licence requires that derivative works remain open source under the same terms.
+
+Source location: <https://github.com/Arrow-air/project-longshot>
+
 See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
