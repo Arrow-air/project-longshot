@@ -2,6 +2,11 @@
 
 Custom 21700 Li-ion battery pack for the [Quiver](https://github.com/Arrow-air/project-quiver) drone platform.
 
+| PT1 prototype | build123d model |
+| --- | --- |
+| ![Longshot PT1 next to a Tattu pack](engineering/builds/PT1/images/pt1-next-to-tattu-pack.jpg) | ![build123d render of the Longshot main assembly](engineering/cad/build123d/docs/preview.png) |
+| The first prototype (left) next to a Tattu pack. More photos in the [PT1 build record](engineering/builds/PT1/README.md#photos). | Render of the [build123d model](engineering/cad/build123d/) of the main assembly. |
+
 ## Overview
 
 Longshot replaces the commercial Tattu battery with a custom-built 21700 cell pack, delivering significantly more energy in the same form factor. The pack is designed for open-source tooling and compatibility with the existing Quiver power system.
