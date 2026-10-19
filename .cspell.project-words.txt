@@ -146,7 +146,6 @@ LiFePO4
 Linetype
 Linkdata
 LITTELFUSE
-Lonshot
 LQFP
 LTC
 LTYPE
@@ -170,7 +169,6 @@ MSTR
 Multicell
 mV
 NAUO
-Negarive
 neighbouring
 netclass
 netclasses
@@ -252,7 +250,6 @@ SFH
 Sheetfile
 Sheetname
 Shenzhen
-Simpel
 sketchdnponfab
 sketchpadsonfab
 smcj

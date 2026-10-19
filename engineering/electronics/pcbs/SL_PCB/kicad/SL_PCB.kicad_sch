@@ -2659,7 +2659,7 @@
 					)
 				)
 			)
-			(property "Description" "Lonshot Negative Terminal"
+			(property "Description" "Longshot Negative Terminal"
 				(at 7.366 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2794,7 +2794,7 @@
 					)
 				)
 			)
-			(property "Description" "Lonshot Positive Terminal"
+			(property "Description" "Longshot Positive Terminal"
 				(at 7.62 6.096 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4014,7 +4014,7 @@
 		)
 		(uuid "28f54595-8b93-42fa-b162-015bba93060b")
 	)
-	(text "Simpel PCB Layout for Longshot Prototype 1"
+	(text "Simple PCB Layout for Longshot Prototype 1"
 		(exclude_from_sim no)
 		(at 13.716 14.732 0)
 		(effects
@@ -4027,7 +4027,7 @@
 		)
 		(uuid "3404f2a0-7afe-4764-834f-cad5146da81f")
 	)
-	(text "Simpel PCB Layout for Longshot Prototype 1"
+	(text "Simple PCB Layout for Longshot Prototype 1"
 		(exclude_from_sim no)
 		(at 180.34 172.72 0)
 		(effects
@@ -6947,7 +6947,7 @@
 				)
 			)
 		)
-		(property "Description" "Lonshot Positive Terminal"
+		(property "Description" "Longshot Positive Terminal"
 			(at 231.14 42.164 0)
 			(hide yes)
 			(show_name no)
@@ -7821,7 +7821,7 @@
 				)
 			)
 		)
-		(property "Description" "Lonshot Negative Terminal"
+		(property "Description" "Longshot Negative Terminal"
 			(at 258.826 41.91 0)
 			(hide yes)
 			(show_name no)

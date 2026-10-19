@@ -217,7 +217,7 @@
 				)
 			)
 		)
-		(property "Description" "Lonshot Positive Terminal"
+		(property "Description" "Longshot Positive Terminal"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4257,7 +4257,7 @@
 				)
 			)
 		)
-		(property "Description" "Lonshot Negative Terminal"
+		(property "Description" "Longshot Negative Terminal"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")

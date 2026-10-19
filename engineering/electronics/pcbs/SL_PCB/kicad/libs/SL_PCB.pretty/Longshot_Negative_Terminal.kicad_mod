@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "Negarive_Terminal"
+	(property "Value" "Negative_Terminal"
 		(at 47.2 -74.6 0)
 		(unlocked yes)
 		(layer "F.Fab")
