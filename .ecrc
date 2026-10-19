@@ -4,6 +4,11 @@
         "^engineering/electronics/pcbs/.*/kicad/libs/.*\\.(kicad_mod|stp|step)$",
         "^engineering/electronics/pcbs/.*/kicad/.*-backups/.*\\.zip$",
         "^engineering/electronics/pcbs/.*/kicad/.*\\.lck$",
-        "^engineering/cad/build123d/exports/.*\\.(step|stl)$"
+        "^engineering/cad/build123d/exports/.*\\.(step|stl)$",
+        "^engineering/electronics/pcbs/.*/kicad/(fp|sym)-lib-table$",
+        "^engineering/electronics/pcbs/.*/kicad/EASYEDA_MODELS/.*\\.(stp|step)$",
+        "^engineering/electronics/pcbs/.*/kicad/production/.*$",
+        "^engineering/electronics/pcbs/.*/kicad/(fabrication-toolkit-options\\.json|jlc-kicad-lib-loader\\.ini)$",
+        "^engineering/electronics/pcbs/.*/manufacturing/.*\\.(stp|step)$"
     ]
 }

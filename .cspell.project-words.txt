@@ -17,6 +17,7 @@ bbox
 bboxes
 BCAN
 BCEC
+Beschreibung
 BEZIER
 bidi
 BLM
@@ -53,6 +54,7 @@ CRCW
 creategerberjobfile
 crossoutdnponfab
 CTE
+CUST
 cvpcb
 Datasheet
 demorgan
@@ -75,9 +77,11 @@ dxfimperialunits
 dxfpolygonmode
 dxfusepcbnewfont
 eabi
+EASYEDA
 Ebike
 edir
 eeschema
+elibz
 Enable
 ENDBLK
 ENDSEC
@@ -116,6 +120,7 @@ IRFL
 ISOMD
 isoSPI
 JEDEC
+JLCEDA
 JNEA
 jobsets
 JTCK
@@ -130,10 +135,14 @@ KIPRJMOD
 KL
 KRX
 layerselection
+LCSC
+Licence
+licences
 LiFePO4
 Linetype
 Linkdata
 LITTELFUSE
+Lonshot
 LQFP
 LTC
 LTYPE
@@ -157,6 +166,7 @@ MSTR
 Multicell
 mV
 NAUO
+Negarive
 neighbouring
 netclass
 netclasses
@@ -206,6 +216,7 @@ polyline
 polylines
 PRDDFN
 Precharge
+prepreg
 PROJECTNAME
 psnegative
 PUL
@@ -237,6 +248,7 @@ SFH
 Sheetfile
 Sheetname
 Shenzhen
+Simpel
 sketchdnponfab
 sketchpadsonfab
 smcj
@@ -309,6 +321,3 @@ Zener
 zmax
 zmin
 ztop
-Licence
-licence
-licences
