@@ -3,8 +3,751 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "2e7a8612-84b6-48bc-808d-73f9aa4adf59")
-	(paper "A1")
+	(paper "A4")
 	(lib_symbols
+		(symbol "Jumper:Jumper_2_Small_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Small_Bridged"
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, small symbol, bridged"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_0_0"
+				(circle
+					(center -1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_0_1"
+				(arc
+					(start -0.762 0.254)
+					(mid 0 0.5696)
+					(end 0.762 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:SolderJumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Bridged"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SL_PCB:AMT0450003DB0000G"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 4.826 7.366 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "AMT0450003DB0000G"
+				(at 4.826 4.826 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "AMT0450003DB0000G"
+				(at 16.51 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.anytek.com.cn/Upload/AMT45003DB-91619770b633481b851135e6d1c1bd28.pdf?fbclid=IwZXh0bgNhZW0CMTEAAR79c1L2mcDs0CoZcBK-E5qsXP_d4Rg51Jntg6nmOemahYpdb-XkfpxHXOJxjQ_aem_dlgVXcx349YY-XU5LhBCmA"
+				(at 16.51 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Terminals Current (A) : 150AScrew : M5Torque : 15 lbf.in BrassTerminal Part+Steel Nut (plating : matte tin)Pin out :  4PINMount Type : DIP"
+				(at 0.508 -6.604 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "10.4"
+				(at 16.51 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "523-AMT0450003DB000G"
+				(at 16.51 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Anytek/AMT0450003DB0000G?qs=ST9lo4GX8V2tfjjMM7mX%252Bw%3D%3D"
+				(at 16.51 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Amphenol"
+				(at 16.51 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "AMT0450003DB0000G"
+				(at 16.51 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "AMT0450003DB0000G_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SL_PCB:ET60S-D06-0-00-D06-X-V1-S"
 			(pin_names
 				(offset 1.016)
@@ -1861,562 +2604,2292 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SL_PCB:Longshot_N_Terminal"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "PAD"
+				(at 3.429 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Negative_Terminal"
+				(at 3.302 4.191 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SL_PCB:Longshot_Negative_Terminal"
+				(at 11.684 8.382 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Longshot Negative Terminal"
+				(at 7.366 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "negative terminal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "negative terminal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Longshot_N_Terminal_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.889 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.889 2.794)
+					(end 5.842 0.889)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Longshot_N_Terminal_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SL_PCB:Longshot_P_Terminal"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "PAD"
+				(at 3.429 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Positive_Terminal"
+				(at 3.302 4.191 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SL_PCB:Longshot_Positive_Terminal"
+				(at 11.938 7.874 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Longshot Positive Terminal"
+				(at 7.62 6.096 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Positive Terminal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Longshot_P_Terminal_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.889 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.889 2.794)
+					(end 5.842 0.889)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Longshot_P_Terminal_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SL_PCB_EasyEDA_Lib:0154005.DR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SL_PCB_EasyEDA_Lib:FUSE-SMD_L9.8-W5.1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/0154005.DR/208035.html"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Type:Surface Mount Fuse (with Holder) Current Rating:5A Voltage Rating (AC):125V Voltage Rating (DC):125V Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C Interrupt Rating:50A Length:9.73mm Width:5.03mm Height:3.81mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "0154005.DR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Littelfuse(美国力特)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part" "C206916"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part Name" "125V贴片式保险丝（含保险丝座）"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0154005.DR_1_0"
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SL_PCB_EasyEDA_Lib:430451612"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "CN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SL_PCB_EasyEDA_Lib:CONN-TH_430451612"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/430/43045/430451612_sd.pdf?inline\\"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Pins Structure:2x8P Pitch:3mm Mounting Type:Through Hole Reference Series:Micro-Fit(MX 3.0) Number of Pins:16P Number of Rows:2 Number of PINs Per Row:8 Row Spacing:3mm Current Rating:8.5A Contact Material:Brass Contact Plating:Tin Operating Temperature:-"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "430451612"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "MOLEX"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part" "C491447"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part Name" "2x8P 间距:3mm 直插 系列:Micro-Fit(MX 3.0)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "430451612_1_0"
+				(rectangle
+					(start -3.81 -11.43)
+					(end 3.81 11.43)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 10.16)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 8.89 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 6.35 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 3.81 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 1.27 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -1.27 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -3.81 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -6.35 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -8.89 0)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 8.89 180)
+					(length 2.54)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 6.35 180)
+					(length 2.54)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 3.81 180)
+					(length 2.54)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 1.27 180)
+					(length 2.54)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 -1.27 180)
+					(length 2.54)
+					(name "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 -3.81 180)
+					(length 2.54)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 -6.35 180)
+					(length 2.54)
+					(name "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 -8.89 180)
+					(length 2.54)
+					(name "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SL_PCB_EasyEDA_Lib:SM07B-GHS-TB(LF)(SN)"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "CN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SL_PCB_EasyEDA_Lib:CONN-SMD_SM7B-GHS-TB-LF-SN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200407/C495552_6029EB70946590F27D235F661EA3D952.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Pins Structure:1x7P Pitch:1.25mm Mounting Style:Horizontal attachment Reference Series:GH Number of Pins:7P Number of Rows:1 Number of PINs Per Row:7 Row Spacing:- Current Rating (Max):1A Contact Material:Phosphor Bronze Contact Plating:Tin Operating Temp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "SM07B-GHS-TB(LF)(SN)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "JST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part" "C495552"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part Name" "1x7P 间距:1.25mm 卧贴 系列:GH"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SM07B-GHS-TB(LF)(SN)_1_0"
+				(rectangle
+					(start -2.54 -7.62)
+					(end 2.54 12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 11.43)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 10.16 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 7.62 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 15.24 270)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 -10.16 90)
+					(length 2.54)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 13.462 58.42)
+		(end 127 88.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "0943d70c-b79d-4914-8794-8a432b38f1fc")
+	)
+	(rectangle
+		(start 207.518 86.36)
+		(end 283.718 137.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "25984a05-9d3a-44c0-b7ed-f4ad495b3c42")
+	)
+	(rectangle
+		(start 129.54 25.4)
+		(end 205.74 162.56)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "2ea92486-1097-413a-a1b4-41040ad11759")
+	)
+	(rectangle
+		(start 13.462 91.44)
+		(end 127 121.92)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "3a468e35-348c-446e-b8f1-3de721d66c15")
+	)
+	(rectangle
+		(start 13.462 160.02)
+		(end 89.662 190.5)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "786106bf-0d0a-4cbb-bc7c-07364f81f6b0")
+	)
+	(rectangle
+		(start 13.462 25.4)
+		(end 127 55.88)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "a2a283bb-ee90-46d8-8e43-c12afef2b410")
+	)
+	(rectangle
+		(start 207.518 25.4)
+		(end 283.718 76.2)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "d540c6d2-570c-499a-9625-526780d0667c")
+	)
+	(rectangle
+		(start 13.462 124.46)
+		(end 127 154.94)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "f023e816-a88e-4136-ad31-2bb2334e7bad")
+	)
+	(text "Cell voltage input"
+		(exclude_from_sim no)
+		(at 13.462 21.59 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left top)
+		)
+		(uuid "16f8c3cd-d5fe-4dcd-a98c-3bbe002654ce")
+	)
+	(text "(NOT PCB LAYOUT RELATED)"
+		(exclude_from_sim no)
+		(at 23.876 128.778 0)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+		)
+		(uuid "28f54595-8b93-42fa-b162-015bba93060b")
+	)
+	(text "Simple PCB Layout for Longshot Prototype 1"
+		(exclude_from_sim no)
+		(at 13.716 14.732 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "3404f2a0-7afe-4764-834f-cad5146da81f")
+	)
+	(text "Simple PCB Layout for Longshot Prototype 1"
+		(exclude_from_sim no)
+		(at 180.34 172.72 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "3dbe23bd-2863-4007-b63a-cca7d929806e")
+	)
+	(text "Power output connector"
+		(exclude_from_sim no)
+		(at 129.286 21.59 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left top)
+		)
+		(uuid "5153f639-b4df-44fb-9cba-96b80e0b633d")
+	)
+	(text "4: Top right"
+		(exclude_from_sim no)
+		(at 21.082 126.746 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5d2111ec-5b1a-46af-b9f1-e4abaa37ec27")
+	)
+	(text "Fuse"
+		(exclude_from_sim no)
+		(at 207.518 83.566 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left top)
+		)
+		(uuid "622c46ba-fd35-4205-9dd6-d5bebc0c9be7")
+	)
+	(text "SL_PCB_V1"
+		(exclude_from_sim no)
+		(at 187.96 188.722 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "68a91627-90ee-489f-871a-98840640e005")
+	)
+	(text "3: Bottom right"
+		(exclude_from_sim no)
+		(at 22.86 93.726 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "77b4109f-8ea3-49e7-a63a-3699f0417f28")
+	)
+	(text "1: Top left"
+		(exclude_from_sim no)
+		(at 20.574 27.686 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7953b6fe-8f66-41e8-b934-27d7980a5773")
+	)
+	(text "2: Bottom left"
+		(exclude_from_sim no)
+		(at 22.352 60.706 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "79636b70-9c0c-4194-886d-8db5e7489166")
+	)
+	(text "(NOT PCB LAYOUT RELATED)"
+		(exclude_from_sim no)
+		(at 23.876 62.992 0)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+		)
+		(uuid "79cd2d91-b831-4230-aad3-b41e71b03e62")
+	)
+	(text "(NOT PCB LAYOUT RELATED)"
+		(exclude_from_sim no)
+		(at 23.876 96.012 0)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+		)
+		(uuid "8d1305d8-a9ab-4e18-9ecc-dc1b1f9ae110")
+	)
+	(text "Tattu balancing connector"
+		(exclude_from_sim no)
+		(at 28.194 162.052 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "915c8f90-5fed-49f2-bb8f-ac14299126ad")
+	)
+	(text "14.07.2026"
+		(exclude_from_sim no)
+		(at 207.264 192.278 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left top)
+		)
+		(uuid "a53ff66c-3bf5-4f8f-9fcb-083872783d45")
+	)
+	(text "AMXL-150 for example\n35.5mm distance"
+		(exclude_from_sim no)
+		(at 243.84 109.22 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left top)
+		)
+		(uuid "c217413e-f351-440d-b624-1889525434ca")
+	)
+	(text "Battery input connection over large pad"
+		(exclude_from_sim no)
+		(at 207.01 22.352 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left top)
+		)
+		(uuid "c709eafe-a1e6-41aa-9075-ac0fd183cd8a")
+	)
+	(text "(NOT PCB LAYOUT RELATED)"
+		(exclude_from_sim no)
+		(at 23.876 29.718 0)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+		)
+		(uuid "f2928a8b-b4af-49d2-b762-ae0fae6d3494")
 	)
 	(junction
-		(at 388.366 124.968)
+		(at 238.76 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00270ac5-c1e6-48be-8947-a8b532008ade")
+	)
+	(junction
+		(at 152.4 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "01b2b8ee-c408-4c85-b001-7bd6046edcf9")
 	)
 	(junction
-		(at 418.846 157.988)
+		(at 182.88 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "01fa13be-b0d5-4b15-89a2-bfe6486f48d2")
 	)
 	(junction
-		(at 388.366 130.048)
+		(at 152.4 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "026c1c08-0ebf-4d1a-adbd-92359a3dc71a")
 	)
 	(junction
-		(at 418.846 46.228)
+		(at 182.88 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05babfd2-fa44-4170-9de8-22476782022d")
 	)
 	(junction
-		(at 418.846 109.728)
+		(at 182.88 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05e73703-d612-47e5-a7a2-1ebb66204745")
 	)
 	(junction
-		(at 388.366 152.908)
+		(at 152.4 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a07c875-400b-4f44-8828-854e9b211525")
 	)
 	(junction
-		(at 418.846 99.568)
+		(at 182.88 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0cc7bf7d-926e-4af1-8376-9945977e8ac2")
 	)
 	(junction
-		(at 388.366 137.668)
+		(at 218.44 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d2fb99b-d202-4ee4-8338-379ff0d6bb47")
+	)
+	(junction
+		(at 152.4 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0e91612b-db89-4c41-8a0d-2e38eb1e88ac")
 	)
 	(junction
-		(at 418.846 112.268)
+		(at 182.88 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15103165-4e96-492f-8b7f-ddfa7a526184")
 	)
 	(junction
-		(at 418.846 122.428)
+		(at 182.88 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "157678cc-031c-4dba-9b71-47b0e2e7fedb")
 	)
 	(junction
-		(at 388.366 117.348)
+		(at 152.4 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a179377-2b0d-4dbd-9018-c4d384df7461")
 	)
 	(junction
-		(at 388.366 79.248)
+		(at 218.44 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1db9e5f9-47c0-49c1-8a2a-8ea8dfb0ad31")
+	)
+	(junction
+		(at 152.4 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f648cd3-3c3f-4ee0-a0d3-1abb45a5962c")
 	)
 	(junction
-		(at 418.846 66.548)
+		(at 182.88 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d1e5101-613e-4b4a-99ce-b884f7e8f209")
 	)
 	(junction
-		(at 388.366 69.088)
+		(at 152.4 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f5a59b2-1cc3-4596-b576-fbd2b482ed92")
 	)
 	(junction
-		(at 388.366 160.528)
+		(at 152.4 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2fed14a4-22d8-4c71-970c-02306ce436d3")
 	)
 	(junction
-		(at 418.846 89.408)
+		(at 182.88 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31988841-04d8-473e-9b27-fd08673f2ee5")
 	)
 	(junction
-		(at 418.846 135.128)
+		(at 182.88 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32da756d-b160-41cd-913b-e62eb6e88a56")
 	)
 	(junction
-		(at 388.366 112.268)
+		(at 152.4 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "392afbfa-133c-4558-8e81-a1ae3c2ca481")
 	)
 	(junction
-		(at 418.846 84.328)
+		(at 182.88 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a294eaf-8924-430d-9b4a-0975e96a3333")
 	)
 	(junction
-		(at 418.846 97.028)
+		(at 182.88 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c483a48-891c-42f4-81a3-73a19eab487e")
 	)
 	(junction
-		(at 388.366 165.608)
+		(at 45.212 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d12612f-494c-4c58-917b-d0584b8ddb66")
+	)
+	(junction
+		(at 152.4 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ed3f0ea-a6b5-42f5-ad4f-82746d6bbb29")
 	)
 	(junction
-		(at 418.846 150.368)
+		(at 182.88 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3fcb2d25-fc5e-424c-8445-fcd03da31ecf")
 	)
 	(junction
-		(at 388.366 99.568)
+		(at 152.4 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "422212ec-880c-400e-925b-285fbb45889d")
 	)
 	(junction
-		(at 418.846 107.188)
+		(at 182.88 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "448c7d65-aa99-4fcb-89b0-a87720e13f0b")
 	)
 	(junction
-		(at 418.846 86.868)
+		(at 182.88 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c903d6d-a4de-4cbc-bd7a-ce60924d751f")
 	)
 	(junction
-		(at 388.366 97.028)
+		(at 152.4 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d3e669c-0876-4a71-8ef4-3167ab53afee")
 	)
 	(junction
-		(at 418.846 79.248)
+		(at 182.88 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50e63096-1ad7-49c9-a308-89c98840d660")
 	)
 	(junction
-		(at 388.366 104.648)
+		(at 152.4 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53367906-b9c6-4506-986a-7486c6bb511e")
 	)
 	(junction
-		(at 388.366 46.228)
+		(at 152.4 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54aaf3b9-e0f1-44ec-b9be-d94a6ef7049e")
 	)
 	(junction
-		(at 388.366 155.448)
+		(at 152.4 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55fb6a95-2c96-4e96-b877-e6107004d297")
 	)
 	(junction
-		(at 388.366 71.628)
+		(at 152.4 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56aba443-f507-467f-94f1-40d35c467b6f")
 	)
 	(junction
-		(at 388.366 74.168)
+		(at 152.4 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56e17fc2-b7ad-48fb-b5ba-7223ac16612f")
 	)
 	(junction
-		(at 418.846 130.048)
+		(at 182.88 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "573e3816-de9a-489e-a5e2-496b8924b0e8")
 	)
 	(junction
-		(at 418.846 61.468)
+		(at 182.88 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58295054-9015-4704-b5c5-5faa728f9341")
 	)
 	(junction
-		(at 418.846 76.708)
+		(at 182.88 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5915edb2-4d75-4a63-93a0-06df26150124")
 	)
 	(junction
-		(at 418.846 117.348)
+		(at 238.76 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "599ef685-ff61-48cf-83dc-9ee65a476ec4")
+	)
+	(junction
+		(at 182.88 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5bb11e24-8070-4989-b558-3cd4fc697024")
 	)
 	(junction
-		(at 418.846 102.108)
+		(at 182.88 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5bc4e3c9-7186-45fb-aada-b98d1ea506e6")
 	)
 	(junction
-		(at 418.846 71.628)
+		(at 182.88 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c9fdad4-f205-44e4-a6af-0b3c871f25ce")
 	)
 	(junction
-		(at 388.366 127.508)
+		(at 152.4 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68cbf664-40ad-4200-af7c-9f37379fe309")
 	)
 	(junction
-		(at 418.846 152.908)
+		(at 182.88 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69f02bf8-58df-4fb2-a24b-48ba3a9aa7b1")
 	)
 	(junction
-		(at 418.846 132.588)
+		(at 182.88 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a5d6965-9941-4d27-8bad-a0cf7c68099c")
 	)
 	(junction
-		(at 388.366 91.948)
+		(at 152.4 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6da1ccc8-ddcb-4190-b43c-23f629fb4bab")
 	)
 	(junction
-		(at 418.846 119.888)
+		(at 182.88 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e108f21-122d-40c5-88fb-87c948fe9be9")
 	)
 	(junction
-		(at 418.846 142.748)
+		(at 182.88 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7085f9c2-fd99-4360-a4db-102419f720b7")
 	)
 	(junction
-		(at 418.846 48.768)
+		(at 182.88 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72e2aab6-bd30-45eb-b77c-66b10faff92b")
 	)
 	(junction
-		(at 418.846 145.288)
+		(at 182.88 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "741d2d68-e482-45a1-8d11-b50c1ead06f3")
 	)
 	(junction
-		(at 388.366 89.408)
+		(at 152.4 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75d3ed42-aa02-48e8-b4ee-cd0a42af9dfe")
 	)
 	(junction
-		(at 418.846 147.828)
+		(at 182.88 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76969854-2bac-4d96-893a-4d10e8d578bd")
 	)
 	(junction
-		(at 388.366 132.588)
+		(at 152.4 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ab25b9f-5f61-4bda-8700-5f6df7bfcd7e")
 	)
 	(junction
-		(at 388.366 119.888)
+		(at 218.44 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c29b57a-1871-4a39-a494-7fec292a93a6")
+	)
+	(junction
+		(at 238.76 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86bfa6a0-c7a4-424a-a4fe-0e72d1eb278f")
+	)
+	(junction
+		(at 152.4 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88c75245-8d56-416e-bcf6-e16b1af9e42b")
 	)
 	(junction
-		(at 388.366 84.328)
+		(at 152.4 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88d3afac-fdad-470c-88e7-c25e27f4835a")
 	)
 	(junction
-		(at 388.366 76.708)
+		(at 152.4 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e99f365-1c9a-484b-866c-bcb845d3398f")
 	)
 	(junction
-		(at 418.846 163.068)
+		(at 182.88 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90281c06-08eb-40c5-a0b6-a06f7f124a87")
 	)
 	(junction
-		(at 388.366 66.548)
+		(at 152.4 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "985863ff-6ba5-44af-9997-cd775658072f")
 	)
 	(junction
-		(at 388.366 142.748)
+		(at 152.4 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9bc8d9f6-8d13-4bb8-a03c-4476978958a1")
 	)
 	(junction
-		(at 418.846 94.488)
+		(at 182.88 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e5517c8-0490-4685-aba8-f71d548c15fd")
 	)
 	(junction
-		(at 388.366 86.868)
+		(at 152.4 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1b867f0-8135-4af8-afc2-bf6e51beb41d")
 	)
 	(junction
-		(at 388.366 157.988)
+		(at 152.4 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a324901d-df55-4a01-8559-6e28e481698d")
 	)
 	(junction
-		(at 388.366 140.208)
+		(at 152.4 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a98118b9-1b38-4f60-80d6-b02ac65a9fe0")
 	)
 	(junction
-		(at 388.366 94.488)
+		(at 152.4 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab7cd5b0-9c95-4a0d-b0f6-d87a0350c64a")
 	)
 	(junction
-		(at 388.366 102.108)
+		(at 152.4 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad0cf3ab-9fa1-4b47-9ab9-ba709c901274")
 	)
 	(junction
-		(at 388.366 109.728)
+		(at 187.96 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b138be31-f9a6-4ad0-ad48-b53be7111def")
+	)
+	(junction
+		(at 152.4 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2088209-ad7e-4ae2-ab01-62d0584166df")
 	)
 	(junction
-		(at 388.366 150.368)
+		(at 152.4 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b77198ef-ed7c-41fa-9032-1f414864b5e2")
 	)
 	(junction
-		(at 418.846 81.788)
+		(at 182.88 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b7e12376-07f5-4776-b2e2-2c994e03cf23")
 	)
 	(junction
-		(at 388.366 107.188)
+		(at 152.4 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8fd4ea0-ca64-4a86-939d-05ab25c48508")
 	)
 	(junction
-		(at 388.366 56.388)
+		(at 152.4 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc4d8119-8719-4e10-bfc2-e13633c3cd19")
 	)
 	(junction
-		(at 418.846 53.848)
+		(at 182.88 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf3da635-fc21-4095-8922-6b97beb4d072")
 	)
 	(junction
-		(at 418.846 74.168)
+		(at 182.88 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0cfdad7-86f2-4a21-860a-a21c095aff2f")
 	)
 	(junction
-		(at 418.846 69.088)
+		(at 182.88 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4da62af-1d80-49c8-addf-77c803d5b058")
 	)
 	(junction
-		(at 418.846 51.308)
+		(at 182.88 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cce58f42-9697-4b06-93c1-af8d0589feca")
 	)
 	(junction
-		(at 388.366 58.928)
+		(at 152.4 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3526151-d9d4-47f2-b48f-72d681cc72d5")
 	)
 	(junction
-		(at 418.846 56.388)
+		(at 182.88 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4266c0c-7aac-4113-bdd3-d43e54515cd4")
 	)
 	(junction
-		(at 388.366 122.428)
+		(at 152.4 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4544b7b-076d-4563-9cac-78de9598fdc1")
 	)
 	(junction
-		(at 388.366 81.788)
+		(at 152.4 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d69c6fac-32f5-45ea-8ad2-59cd1ca68167")
 	)
 	(junction
-		(at 418.846 140.208)
+		(at 182.88 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6db5cd5-c7f9-4461-af3b-8b64dd2e6e51")
 	)
 	(junction
-		(at 388.366 135.128)
+		(at 152.4 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d87f13fb-8ce3-4d32-b0c9-238f284bbec7")
 	)
 	(junction
-		(at 388.366 53.848)
+		(at 152.4 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8eac994-517d-4d43-bcb9-15ce0d43f59a")
 	)
 	(junction
-		(at 418.846 104.648)
+		(at 182.88 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da59d159-2acf-436b-bbd2-b66ddb45c409")
 	)
 	(junction
-		(at 388.366 51.308)
+		(at 152.4 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc15cbfa-11a4-461a-8541-6ff98a38eddb")
 	)
 	(junction
-		(at 418.846 114.808)
+		(at 182.88 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd22df4b-b122-48d8-acfc-3fe0d19dd6c0")
 	)
 	(junction
-		(at 418.846 124.968)
+		(at 182.88 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de85bec4-fb08-4aba-b3cd-d8c8421bb8cc")
 	)
 	(junction
-		(at 418.846 155.448)
+		(at 182.88 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e02186cc-5ecd-4651-99e5-f766a42bcb7d")
 	)
 	(junction
-		(at 388.366 114.808)
+		(at 152.4 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0ec8abb-088e-43b9-a6f3-ed0f1b6b5069")
 	)
 	(junction
-		(at 388.366 48.768)
+		(at 152.4 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e38375eb-fc07-4820-85cd-d5a369639312")
 	)
 	(junction
-		(at 418.846 160.528)
+		(at 182.88 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e70ba2b6-a13b-4a3c-b0f3-a5eb67c858f9")
 	)
 	(junction
-		(at 388.366 61.468)
+		(at 152.4 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7ccf8e1-1a92-40dc-825a-7c91ded6c09a")
 	)
 	(junction
-		(at 418.846 91.948)
+		(at 182.88 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea4682a1-8d51-456e-b085-94633eeeccd2")
 	)
 	(junction
-		(at 388.366 163.068)
+		(at 152.4 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed2d3767-cf40-4f8e-93b0-26edf7b0b019")
 	)
 	(junction
-		(at 418.846 127.508)
+		(at 182.88 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f02c24b8-c6c1-406f-a561-38e38a4f06a8")
 	)
 	(junction
-		(at 388.366 64.008)
+		(at 149.098 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4c4c2ef-d777-4473-98f0-a0d7e938ec4a")
+	)
+	(junction
+		(at 238.76 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f88ec402-799f-4b0b-b8eb-24b9584297ea")
+	)
+	(junction
+		(at 152.4 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb16c565-af17-4848-8b14-8612912fd837")
 	)
 	(junction
-		(at 418.846 137.668)
+		(at 182.88 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb552a2d-03cd-470b-af20-4ca90322410b")
 	)
 	(junction
-		(at 418.846 58.928)
+		(at 182.88 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb9aa812-1052-4a98-8bf3-d3805079cf41")
 	)
+	(no_connect
+		(at 82.042 144.78)
+		(uuid "21527afa-20b8-4d4b-85fa-bf11ef59d6fa")
+	)
+	(no_connect
+		(at 45.212 43.18)
+		(uuid "3988f626-7e4b-4b44-917a-c75ef83d83cb")
+	)
+	(no_connect
+		(at 45.212 142.24)
+		(uuid "48c545b3-7d7a-4984-a73b-2809f85069fa")
+	)
+	(no_connect
+		(at 138.938 147.32)
+		(uuid "52881659-bcc7-43d8-85d4-9a6d0b941292")
+	)
+	(no_connect
+		(at 38.862 53.34)
+		(uuid "7689f8bc-80c2-46e7-9c2a-6a1dd9ef49d4")
+	)
+	(no_connect
+		(at 45.212 106.68)
+		(uuid "7b9de590-0f0c-48e5-a066-5e69c662e2cf")
+	)
+	(no_connect
+		(at 198.12 40.64)
+		(uuid "7ed1d5fe-dde0-4d3f-8a44-a29aefbd6c07")
+	)
+	(no_connect
+		(at 38.862 27.94)
+		(uuid "89fdfc55-8248-428e-b430-548e89946be4")
+	)
+	(no_connect
+		(at 38.862 86.36)
+		(uuid "96ecf420-304e-4642-9ac8-3eb641b93dfe")
+	)
+	(no_connect
+		(at 38.862 127)
+		(uuid "97277e2a-f561-4cd8-84a4-d32e4df3c1f1")
+	)
+	(no_connect
+		(at 82.042 78.74)
+		(uuid "aca1821e-9ffc-4da5-882a-62a7d8d0643c")
+	)
+	(no_connect
+		(at 38.862 60.96)
+		(uuid "c876a1d8-ac33-4e76-a255-d6b570e10fad")
+	)
+	(no_connect
+		(at 38.862 93.98)
+		(uuid "d0eb471f-db62-49ee-a360-7d498ac10c04")
+	)
+	(no_connect
+		(at 82.042 45.72)
+		(uuid "e3435c8b-f4f4-4b22-9fc7-966b9e99da72")
+	)
+	(no_connect
+		(at 38.862 119.38)
+		(uuid "eba678a9-a773-44af-9f24-f1bb38260197")
+	)
+	(no_connect
+		(at 38.862 152.4)
+		(uuid "f3a0c277-8710-4656-b4e8-1fbfe00da95a")
+	)
+	(no_connect
+		(at 45.212 76.2)
+		(uuid "f4099e5f-52fe-4dde-91ad-f3ba6c63af17")
+	)
+	(no_connect
+		(at 82.042 111.76)
+		(uuid "f94cad55-66fe-4449-bbae-2b3ab711f698")
+	)
+	(no_connect
+		(at 45.212 109.22)
+		(uuid "ffdcf78b-421d-4953-9c96-36cd25ca21d7")
+	)
 	(wire
 		(pts
-			(xy 388.366 58.928) (xy 388.366 61.468)
+			(xy 55.372 134.62) (xy 61.722 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "015f61c4-eca4-4c09-b4ed-490cb147e567")
+	)
+	(wire
+		(pts
+			(xy 152.4 50.8) (xy 152.4 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2426,7 +4899,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 94.488) (xy 388.366 97.028)
+			(xy 152.4 86.36) (xy 152.4 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2436,7 +4909,17 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 46.228) (xy 425.196 46.228)
+			(xy 55.372 38.1) (xy 64.262 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04653797-7caf-464f-a260-11eb157db8df")
+	)
+	(wire
+		(pts
+			(xy 182.88 38.1) (xy 187.96 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2446,7 +4929,17 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 107.188) (xy 418.846 109.728)
+			(xy 187.96 38.1) (xy 189.23 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0986f914-4314-4c68-a5dd-3301bc1f37f7")
+	)
+	(wire
+		(pts
+			(xy 182.88 99.06) (xy 182.88 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2456,7 +4949,7 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 145.288) (xy 418.846 147.828)
+			(xy 182.88 137.16) (xy 182.88 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2466,7 +4959,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.666 46.228) (xy 388.366 46.228)
+			(xy 139.7 38.1) (xy 152.4 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2476,7 +4969,7 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 51.308) (xy 418.846 53.848)
+			(xy 182.88 43.18) (xy 182.88 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2486,7 +4979,7 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 112.268) (xy 418.846 114.808)
+			(xy 182.88 104.14) (xy 182.88 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2496,7 +4989,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 127.508) (xy 388.366 130.048)
+			(xy 152.4 119.38) (xy 152.4 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2506,7 +4999,7 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 152.908) (xy 418.846 155.448)
+			(xy 182.88 144.78) (xy 182.88 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2516,7 +5009,17 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 76.708) (xy 388.366 79.248)
+			(xy 55.372 132.08) (xy 59.182 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16706669-f44f-4360-a933-027701164c27")
+	)
+	(wire
+		(pts
+			(xy 152.4 68.58) (xy 152.4 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2526,7 +5029,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 135.128) (xy 388.366 137.668)
+			(xy 152.4 127) (xy 152.4 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2536,7 +5039,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 107.188) (xy 388.366 109.728)
+			(xy 152.4 99.06) (xy 152.4 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2546,7 +5049,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 79.248) (xy 388.366 81.788)
+			(xy 152.4 71.12) (xy 152.4 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2556,7 +5059,17 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 46.228) (xy 388.366 48.768)
+			(xy 45.212 114.3) (xy 51.562 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1df95a5b-2f85-43c2-a5d6-0be481fe3b81")
+	)
+	(wire
+		(pts
+			(xy 152.4 38.1) (xy 152.4 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2566,7 +5079,17 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 122.428) (xy 388.366 124.968)
+			(xy 55.372 101.6) (xy 61.722 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "230eff51-0ab9-4288-ac80-d3cf00d641f5")
+	)
+	(wire
+		(pts
+			(xy 152.4 114.3) (xy 152.4 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2576,7 +5099,7 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 97.028) (xy 418.846 99.568)
+			(xy 182.88 88.9) (xy 182.88 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2586,7 +5109,7 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 124.968) (xy 418.846 127.508)
+			(xy 182.88 116.84) (xy 182.88 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2596,7 +5119,17 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 135.128) (xy 418.846 137.668)
+			(xy 238.76 101.6) (xy 238.76 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fa834e0-ff54-47eb-9a3e-f3f0e40f87cf")
+	)
+	(wire
+		(pts
+			(xy 182.88 127) (xy 182.88 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2606,7 +5139,7 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 56.388) (xy 418.846 58.928)
+			(xy 182.88 48.26) (xy 182.88 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2616,7 +5149,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 119.888) (xy 388.366 122.428)
+			(xy 152.4 111.76) (xy 152.4 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2626,7 +5159,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 104.648) (xy 388.366 107.188)
+			(xy 152.4 96.52) (xy 152.4 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2636,7 +5169,17 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 150.368) (xy 418.846 152.908)
+			(xy 45.212 45.72) (xy 71.882 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "379e0218-d28b-49a6-9fcc-42d3958910a3")
+	)
+	(wire
+		(pts
+			(xy 182.88 142.24) (xy 182.88 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2646,7 +5189,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 112.268) (xy 388.366 114.808)
+			(xy 152.4 104.14) (xy 152.4 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2656,7 +5199,7 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 163.068) (xy 418.846 165.608)
+			(xy 182.88 154.94) (xy 182.88 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2666,7 +5209,17 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 61.468) (xy 418.846 64.008)
+			(xy 218.44 119.38) (xy 218.44 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "436592c1-fb60-4f23-9053-f15b95dcd6df")
+	)
+	(wire
+		(pts
+			(xy 182.88 53.34) (xy 182.88 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2676,7 +5229,37 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 48.768) (xy 418.846 51.308)
+			(xy 55.372 139.7) (xy 89.662 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "469357fd-d8b7-421c-9f98-e93b7d67b1d5")
+	)
+	(wire
+		(pts
+			(xy 55.372 40.64) (xy 71.882 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4717dbd2-7592-45fd-bcce-3b29fde056d4")
+	)
+	(wire
+		(pts
+			(xy 45.212 147.32) (xy 51.562 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4817a97e-0aeb-4bc5-936a-5f80eea62af8")
+	)
+	(wire
+		(pts
+			(xy 182.88 40.64) (xy 182.88 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2686,7 +5269,7 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 132.588) (xy 418.846 135.128)
+			(xy 182.88 124.46) (xy 182.88 127)
 		)
 		(stroke
 			(width 0)
@@ -2696,7 +5279,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 86.868) (xy 388.366 89.408)
+			(xy 152.4 78.74) (xy 152.4 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2706,7 +5289,17 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 53.848) (xy 418.846 56.388)
+			(xy 187.96 40.64) (xy 187.96 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e95f52b-b6b8-423c-90e5-37128fff16b5")
+	)
+	(wire
+		(pts
+			(xy 182.88 45.72) (xy 182.88 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2716,7 +5309,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 142.748) (xy 388.366 145.288)
+			(xy 152.4 134.62) (xy 152.4 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2726,7 +5319,7 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 140.208) (xy 418.846 142.748)
+			(xy 182.88 132.08) (xy 182.88 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2736,7 +5329,17 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 117.348) (xy 418.846 119.888)
+			(xy 45.212 111.76) (xy 71.882 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "558acd9c-0fe9-47b0-aa9d-480560c9c9e4")
+	)
+	(wire
+		(pts
+			(xy 182.88 109.22) (xy 182.88 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2746,7 +5349,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 130.048) (xy 388.366 132.588)
+			(xy 152.4 121.92) (xy 152.4 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2756,7 +5359,27 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 119.888) (xy 418.846 122.428)
+			(xy 218.44 116.84) (xy 218.44 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d6841ce-bc44-4f98-bc92-1f79f0f39c24")
+	)
+	(wire
+		(pts
+			(xy 55.372 35.56) (xy 61.722 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dafe9e5-c713-421f-9016-7a483bfd4e5d")
+	)
+	(wire
+		(pts
+			(xy 182.88 111.76) (xy 182.88 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2766,7 +5389,7 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 104.648) (xy 418.846 107.188)
+			(xy 182.88 96.52) (xy 182.88 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2776,7 +5399,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 74.168) (xy 388.366 76.708)
+			(xy 152.4 66.04) (xy 152.4 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2786,7 +5409,7 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 46.228) (xy 418.846 48.768)
+			(xy 182.88 38.1) (xy 182.88 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2796,7 +5419,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 157.988) (xy 388.366 160.528)
+			(xy 152.4 149.86) (xy 152.4 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2806,7 +5429,7 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 155.448) (xy 418.846 157.988)
+			(xy 182.88 147.32) (xy 182.88 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2816,7 +5439,7 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 71.628) (xy 418.846 74.168)
+			(xy 182.88 63.5) (xy 182.88 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2826,7 +5449,7 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 89.408) (xy 418.846 91.948)
+			(xy 182.88 81.28) (xy 182.88 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2836,7 +5459,7 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 66.548) (xy 425.704 66.548)
+			(xy 182.88 58.42) (xy 189.738 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2846,7 +5469,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 147.828) (xy 388.366 150.368)
+			(xy 152.4 139.7) (xy 152.4 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2856,7 +5479,27 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 97.028) (xy 388.366 99.568)
+			(xy 218.44 101.473) (xy 218.44 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "727cbb7d-54fb-47b9-ab94-3220901773d5")
+	)
+	(wire
+		(pts
+			(xy 52.832 29.464) (xy 74.422 29.464)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74223614-7e4d-4146-aa92-71588098b830")
+	)
+	(wire
+		(pts
+			(xy 152.4 88.9) (xy 152.4 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2866,7 +5509,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 53.848) (xy 388.366 56.388)
+			(xy 152.4 45.72) (xy 152.4 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2876,7 +5519,27 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 56.388) (xy 388.366 58.928)
+			(xy 55.372 104.14) (xy 64.262 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "796da84c-5e9e-4392-98fd-dc24e965a9c3")
+	)
+	(wire
+		(pts
+			(xy 45.212 33.02) (xy 45.212 29.464)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e28be52-3c95-4689-bc1d-9c2a7129f188")
+	)
+	(wire
+		(pts
+			(xy 152.4 48.26) (xy 152.4 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2886,7 +5549,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 69.088) (xy 388.366 71.628)
+			(xy 152.4 60.96) (xy 152.4 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2896,7 +5559,7 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 58.928) (xy 418.846 61.468)
+			(xy 182.88 50.8) (xy 182.88 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2906,7 +5569,7 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 79.248) (xy 418.846 81.788)
+			(xy 182.88 71.12) (xy 182.88 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2916,7 +5579,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 124.968) (xy 388.366 127.508)
+			(xy 152.4 116.84) (xy 152.4 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2926,7 +5589,17 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 94.488) (xy 418.846 97.028)
+			(xy 218.44 127) (xy 238.76 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84bd24cd-eef1-439e-8bac-46319f1a5927")
+	)
+	(wire
+		(pts
+			(xy 182.88 86.36) (xy 182.88 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2936,7 +5609,7 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 81.788) (xy 418.846 84.328)
+			(xy 182.88 73.66) (xy 182.88 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2946,7 +5619,27 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 109.728) (xy 418.846 112.268)
+			(xy 218.44 104.14) (xy 218.44 107.442)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8828f945-50b7-4894-b460-b96a3f8e2c77")
+	)
+	(wire
+		(pts
+			(xy 238.76 107.442) (xy 238.76 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88c41f18-28e6-452b-83ab-359407ebfaae")
+	)
+	(wire
+		(pts
+			(xy 182.88 101.6) (xy 182.88 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2956,7 +5649,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 140.208) (xy 388.366 142.748)
+			(xy 152.4 132.08) (xy 152.4 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2966,7 +5659,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 89.408) (xy 388.366 91.948)
+			(xy 152.4 81.28) (xy 152.4 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2976,7 +5669,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 114.808) (xy 388.366 117.348)
+			(xy 152.4 106.68) (xy 152.4 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2986,7 +5679,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 48.768) (xy 388.366 51.308)
+			(xy 152.4 40.64) (xy 152.4 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2996,7 +5689,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 160.528) (xy 388.366 163.068)
+			(xy 152.4 152.4) (xy 152.4 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3006,7 +5699,7 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 127.508) (xy 418.846 130.048)
+			(xy 182.88 119.38) (xy 182.88 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3016,7 +5709,17 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 122.428) (xy 418.846 124.968)
+			(xy 55.372 66.04) (xy 59.182 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9390f3d8-2c92-425d-aa67-002ee0fc16eb")
+	)
+	(wire
+		(pts
+			(xy 182.88 114.3) (xy 182.88 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3026,7 +5729,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 84.328) (xy 388.366 86.868)
+			(xy 152.4 76.2) (xy 152.4 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3036,7 +5739,27 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 91.948) (xy 388.366 94.488)
+			(xy 149.098 147.32) (xy 149.098 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "963996d3-fc37-4926-9619-852a6129796c")
+	)
+	(wire
+		(pts
+			(xy 45.212 144.78) (xy 71.882 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96ea9fd6-3b5b-43f6-bbdf-756ce14dcd33")
+	)
+	(wire
+		(pts
+			(xy 152.4 83.82) (xy 152.4 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3046,7 +5769,17 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 150.368) (xy 388.366 152.908)
+			(xy 45.212 81.28) (xy 51.562 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b275c52-f8ae-4434-a80c-89c4b44e2ec9")
+	)
+	(wire
+		(pts
+			(xy 152.4 142.24) (xy 152.4 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3056,7 +5789,7 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 114.808) (xy 418.846 117.348)
+			(xy 182.88 106.68) (xy 182.88 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3066,7 +5799,7 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 66.548) (xy 418.846 69.088)
+			(xy 182.88 58.42) (xy 182.88 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3076,7 +5809,27 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 74.168) (xy 418.846 76.708)
+			(xy 55.372 33.02) (xy 59.182 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a722e8af-c978-496a-af14-8a35d9a35085")
+	)
+	(wire
+		(pts
+			(xy 45.212 29.464) (xy 47.752 29.464)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7274a54-7bd5-4a6a-a701-153b46e36efa")
+	)
+	(wire
+		(pts
+			(xy 182.88 66.04) (xy 182.88 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3086,7 +5839,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 109.728) (xy 388.366 112.268)
+			(xy 152.4 101.6) (xy 152.4 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3096,7 +5849,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 61.468) (xy 388.366 64.008)
+			(xy 152.4 53.34) (xy 152.4 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3106,7 +5859,7 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 102.108) (xy 418.846 104.648)
+			(xy 182.88 93.98) (xy 182.88 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3116,7 +5869,27 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 76.708) (xy 418.846 79.248)
+			(xy 55.372 73.66) (xy 71.882 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af0af972-102e-495b-9a34-98c7e05dac7c")
+	)
+	(wire
+		(pts
+			(xy 218.44 107.442) (xy 238.76 107.442)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b02078c0-678e-4799-ad75-1bb0c0e7acac")
+	)
+	(wire
+		(pts
+			(xy 182.88 68.58) (xy 182.88 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3126,7 +5899,17 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 64.008) (xy 388.366 66.548)
+			(xy 238.76 116.84) (xy 238.76 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b153307a-cc9a-470a-b478-31700a44922b")
+	)
+	(wire
+		(pts
+			(xy 152.4 55.88) (xy 152.4 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3136,7 +5919,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 102.108) (xy 388.366 104.648)
+			(xy 152.4 93.98) (xy 152.4 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3146,7 +5929,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 81.788) (xy 388.366 84.328)
+			(xy 152.4 73.66) (xy 152.4 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3156,7 +5939,17 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 117.348) (xy 388.366 119.888)
+			(xy 115.062 139.7) (xy 94.742 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1add0dc-da80-44c3-992f-0e4531b285c4")
+	)
+	(wire
+		(pts
+			(xy 152.4 109.22) (xy 152.4 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3166,7 +5959,7 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 130.048) (xy 418.846 132.588)
+			(xy 182.88 121.92) (xy 182.88 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3176,7 +5969,17 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 99.568) (xy 418.846 102.108)
+			(xy 241.3 127) (xy 238.76 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c41fba48-b6fc-4ce3-9fe8-a4a4bfe0bbf8")
+	)
+	(wire
+		(pts
+			(xy 182.88 91.44) (xy 182.88 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3186,7 +5989,17 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 137.668) (xy 418.846 140.208)
+			(xy 238.76 48.26) (xy 238.76 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c67c475e-2b46-4d64-befd-c99809ec6bcc")
+	)
+	(wire
+		(pts
+			(xy 182.88 129.54) (xy 182.88 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3196,7 +6009,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 137.668) (xy 388.366 140.208)
+			(xy 152.4 129.54) (xy 152.4 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3206,7 +6019,7 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 91.948) (xy 418.846 94.488)
+			(xy 182.88 83.82) (xy 182.88 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3216,7 +6029,17 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 155.448) (xy 388.366 157.988)
+			(xy 45.212 48.26) (xy 51.562 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb932f8e-07c4-4db1-8a9a-00f78459ad05")
+	)
+	(wire
+		(pts
+			(xy 152.4 147.32) (xy 152.4 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3226,7 +6049,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 66.548) (xy 388.366 69.088)
+			(xy 152.4 58.42) (xy 152.4 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3236,7 +6059,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 163.068) (xy 388.366 165.608)
+			(xy 152.4 154.94) (xy 152.4 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3246,7 +6069,7 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 69.088) (xy 418.846 71.628)
+			(xy 182.88 60.96) (xy 182.88 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3256,7 +6079,17 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 142.748) (xy 418.846 145.288)
+			(xy 251.46 48.26) (xy 251.46 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d73cf07c-31db-441c-a913-51efec668b67")
+	)
+	(wire
+		(pts
+			(xy 182.88 134.62) (xy 182.88 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3266,7 +6099,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 99.568) (xy 388.366 102.108)
+			(xy 152.4 91.44) (xy 152.4 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3276,7 +6109,27 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 147.828) (xy 418.846 150.368)
+			(xy 66.802 186.69) (xy 60.452 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da186a0c-a64e-4fd5-9bbc-3a71e69f7649")
+	)
+	(wire
+		(pts
+			(xy 218.44 101.6) (xy 218.44 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dae981a5-1c39-46cc-b309-5e27b05fb344")
+	)
+	(wire
+		(pts
+			(xy 182.88 139.7) (xy 182.88 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3286,7 +6139,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 152.908) (xy 388.366 155.448)
+			(xy 152.4 144.78) (xy 152.4 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3296,7 +6149,7 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 84.328) (xy 418.846 86.868)
+			(xy 182.88 76.2) (xy 182.88 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3306,7 +6159,17 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 86.868) (xy 418.846 89.408)
+			(xy 55.372 99.06) (xy 59.182 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e23e37bb-3469-442d-8a58-ad852af90d6f")
+	)
+	(wire
+		(pts
+			(xy 182.88 78.74) (xy 182.88 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3316,7 +6179,37 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 160.528) (xy 418.846 163.068)
+			(xy 149.098 157.48) (xy 152.4 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3affdb8-9744-41b8-a90c-8e440c84e343")
+	)
+	(wire
+		(pts
+			(xy 55.372 71.12) (xy 64.262 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed2b666f-7865-4bda-b74b-4ca8478adada")
+	)
+	(wire
+		(pts
+			(xy 55.372 137.16) (xy 64.262 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efa66cc8-d6c6-48cf-80ce-655c6ca32d60")
+	)
+	(wire
+		(pts
+			(xy 182.88 152.4) (xy 182.88 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3326,7 +6219,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 51.308) (xy 388.366 53.848)
+			(xy 152.4 43.18) (xy 152.4 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3336,7 +6229,7 @@
 	)
 	(wire
 		(pts
-			(xy 418.846 157.988) (xy 418.846 160.528)
+			(xy 182.88 149.86) (xy 182.88 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3346,7 +6239,27 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 165.608) (xy 388.366 165.608)
+			(xy 41.402 186.69) (xy 47.752 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3c97c61-5e7e-4f28-b5bb-e94e5c9700fc")
+	)
+	(wire
+		(pts
+			(xy 79.502 186.69) (xy 76.962 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f404fb4f-69e9-4247-b988-cd5c84f9bfb1")
+	)
+	(wire
+		(pts
+			(xy 143.764 157.48) (xy 149.098 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3356,7 +6269,27 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 132.588) (xy 388.366 135.128)
+			(xy 238.76 127) (xy 238.76 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa3c6f59-5128-47c7-a477-b81b109e5e88")
+	)
+	(wire
+		(pts
+			(xy 55.372 68.58) (xy 61.722 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa84e6cf-3374-4474-b2e4-08bca054ab6f")
+	)
+	(wire
+		(pts
+			(xy 152.4 124.46) (xy 152.4 127)
 		)
 		(stroke
 			(width 0)
@@ -3366,7 +6299,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.366 71.628) (xy 388.366 74.168)
+			(xy 152.4 63.5) (xy 152.4 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3374,18 +6307,188 @@
 		)
 		(uuid "fbfdcde3-cc1f-424c-a0f3-8649b8409ac1")
 	)
-	(label "BATT+"
-		(at 425.704 66.548 0)
+	(wire
+		(pts
+			(xy 45.212 78.74) (xy 71.882 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffc083bd-a19e-411f-9cab-a18242ae7271")
+	)
+	(label "VS_C9"
+		(at 59.182 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "378ab182-88d6-40e2-b73a-e6418357ff47")
+		(uuid "0ba9cd25-cceb-4beb-87c1-2d542b33b160")
+	)
+	(label "BATT+"
+		(at 238.76 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ef40e61-19d0-40a0-bea1-7ffbe3d4dc6a")
+	)
+	(label "VS_C12"
+		(at 64.262 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b9df17a-bf3d-4396-94e6-84d2400b1d0c")
+	)
+	(label "VS_C13"
+		(at 60.452 184.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2bb3c223-a94d-456f-aff4-61c13aeebea7")
+	)
+	(label "VS_C14"
+		(at 79.502 186.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e310c31-d760-4215-b939-418182564719")
+	)
+	(label "VS_C8"
+		(at 47.752 179.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "32b0e12f-31a8-4931-b074-3bf194c14179")
+	)
+	(label "BATT+_Fused"
+		(at 241.3 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "36a73eb1-0adc-4c48-9a09-69fb13ba8f67")
+	)
+	(label "VS_C2"
+		(at 47.752 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3b9d31ae-14b8-4a40-961a-6c939da49a18")
+	)
+	(label "T2_S"
+		(at 66.802 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d99d052-4d86-403a-b5ec-b6b099b979d8")
+	)
+	(label "VS_C3"
+		(at 60.452 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46e9edf8-2448-4478-b1ab-050682375f59")
+	)
+	(label "VS_C4"
+		(at 64.262 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c7f8c3d-e215-4359-b27d-a8e7b929b980")
+	)
+	(label "T1_S"
+		(at 66.802 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ca76215-b0b1-45bc-9b34-09a44d537751")
+	)
+	(label "T3_S"
+		(at 66.802 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52ac1905-1085-46dd-92a0-1ce1b8d51cec")
+	)
+	(label "VS_C14"
+		(at 71.882 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "650264b4-2aa0-4188-b1db-15a79582a4fa")
+	)
+	(label "VS_C0"
+		(at 59.182 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b95e941-7d2e-4168-b2d4-471bf5123438")
+	)
+	(label "VS_C2"
+		(at 61.722 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6fa9042a-449b-470b-b067-d8480e76e328")
+	)
+	(label "VS_C9"
+		(at 60.452 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6fd157eb-14c1-4c9b-8540-0cb318268f74")
 	)
 	(label "BCAN_L"
-		(at 379.73 165.608 180)
+		(at 143.764 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3395,7 +6498,7 @@
 		(uuid "721955ef-fca1-47e8-9da2-06cf775ab63a")
 	)
 	(label "BATT-"
-		(at 375.666 46.228 180)
+		(at 139.7 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3404,8 +6507,148 @@
 		)
 		(uuid "776f4216-d88c-4968-af87-09ad66eec1b1")
 	)
+	(label "VS_C5"
+		(at 64.262 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77f5304b-ffdd-427d-9873-03ee5273de9a")
+	)
+	(label "VS_C4"
+		(at 47.752 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7b2704fe-2aa5-44df-95b2-c954484b72a6")
+	)
+	(label "VS_C13"
+		(at 64.262 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7bad4935-707b-45df-94b7-ca37ade1c400")
+	)
+	(label "VS_C10"
+		(at 61.722 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c1dc58e-3e29-4f3a-b5d4-d1bff704fd71")
+	)
+	(label "VS_C11"
+		(at 61.722 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85508bdb-8cd4-4c55-81bf-4e8fa89b22b2")
+	)
+	(label "VS_C10"
+		(at 47.752 181.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "89652f67-aa19-4832-a432-2e6cd4a1901c")
+	)
+	(label "VS_C6"
+		(at 71.882 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "89ea0fab-87ef-4e36-8f2e-e4499bad91a7")
+	)
+	(label "VS_C3"
+		(at 61.722 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c920fe4-c518-4711-80f0-d9f8b8efa0c3")
+	)
+	(label "BATT-"
+		(at 251.46 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8dc5ed15-d092-4393-9d12-176b8949434a")
+	)
+	(label "VS_C1"
+		(at 60.452 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a8efc28-89ab-4991-b306-784a16ebdbd1")
+	)
+	(label "VS_C6"
+		(at 47.752 176.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ec85f7f-940d-4921-831c-d8d9f5e92863")
+	)
+	(label "VS_C14"
+		(at 41.402 186.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a5dba8da-c18c-4dd7-9bf8-b9a1d7c666bd")
+	)
+	(label "VS_C0"
+		(at 47.752 168.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aab5f7c6-1483-41a9-a570-1c6ae350b5d7")
+	)
+	(label "T4_S"
+		(at 66.802 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab106ad3-fb79-45ed-9870-3f2d902f07d7")
+	)
 	(label "BCAN_H"
-		(at 425.196 46.228 0)
+		(at 189.23 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3414,9 +6657,1677 @@
 		)
 		(uuid "b0b84071-d51f-42a4-b423-b406fc3e5cb3")
 	)
+	(label "VS_C7"
+		(at 71.882 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4e94390-19c8-41e5-be04-e41936e7017b")
+	)
+	(label "VS_C12"
+		(at 47.752 184.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bcdbbcfe-430f-440b-926f-ef3b435dfea9")
+	)
+	(label "VS_C1"
+		(at 59.182 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c1f05f1c-aa0e-4b6e-926b-b28744a2f286")
+	)
+	(label "BATT+_Fused"
+		(at 189.738 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cbfc7995-c2a8-4c3d-84f9-11c642534edd")
+	)
+	(label "VS_C8"
+		(at 59.182 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d152daf3-e35e-4680-b28f-63040eb4dd81")
+	)
+	(label "BATT+"
+		(at 115.062 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0aa49e7-32f4-4ff9-942e-c1f37e0659e5")
+	)
+	(label "VS_C11"
+		(at 60.452 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5bc4d4a-bf48-459c-a79f-e56d51010753")
+	)
+	(label "VS_C7"
+		(at 60.452 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0c0e92d-8990-43e3-85ea-bc49459cf74a")
+	)
+	(label "VS_C5"
+		(at 60.452 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f964a4e0-e379-483f-a587-f4be787322d2")
+	)
+	(label "BATT-"
+		(at 74.422 29.464 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "faa2af3f-980a-4cea-9b83-b0088712dcec")
+	)
+	(symbol
+		(lib_id "SL_PCB_EasyEDA_Lib:0154005.DR")
+		(at 50.292 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0aa244fe-301b-4a42-841d-282a55efb3e5")
+		(property "Reference" "F9"
+			(at 54.102 98.044 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 50.292 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SL_PCB_EasyEDA_Lib:FUSE-SMD_L9.8-W5.1"
+			(at 50.292 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0154005.DR/208035.html"
+			(at 50.292 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Type:Surface Mount Fuse (with Holder) Current Rating:5A Voltage Rating (AC):125V Voltage Rating (DC):125V Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C Interrupt Rating:50A Length:9.73mm Width:5.03mm Height:3.81mm"
+			(at 50.292 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0154005.DR"
+			(at 50.292 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse(美国力特)"
+			(at 50.292 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C206916"
+			(at 50.292 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 50.292 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "125V贴片式保险丝（含保险丝座）"
+			(at 50.292 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "19fcad9b-4d9e-427c-bfb6-c4ac7be8a3a3")
+		)
+		(pin "2"
+			(uuid "0d102c43-378d-40f8-b044-30ffbdede424")
+		)
+		(instances
+			(project "SL_PCB"
+				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
+					(reference "F9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SL_PCB:Longshot_P_Terminal")
+		(at 238.76 48.26 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0fd1e9cb-9a5e-4c23-92c1-401bd5ae1c7a")
+		(property "Reference" "PAD2"
+			(at 213.614 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Positive_Terminal"
+			(at 213.614 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SL_PCB:Longshot_Positive_Terminal"
+			(at 226.822 40.386 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Longshot Positive Terminal"
+			(at 231.14 42.164 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a4d698f-0823-4582-95a1-01371963783e")
+		)
+		(instances
+			(project "SL_PCB"
+				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
+					(reference "PAD2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SL_PCB_EasyEDA_Lib:SM07B-GHS-TB(LF)(SN)")
+		(at 40.132 109.22 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "12f585f4-1bad-42d9-b9ab-a12f2fe1d96d")
+		(property "Reference" "CN3"
+			(at 36.322 106.6801 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 40.132 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SL_PCB_EasyEDA_Lib:CONN-SMD_SM7B-GHS-TB-LF-SN"
+			(at 40.132 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200407/C495552_6029EB70946590F27D235F661EA3D952.pdf"
+			(at 40.132 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pins Structure:1x7P Pitch:1.25mm Mounting Style:Horizontal attachment Reference Series:GH Number of Pins:7P Number of Rows:1 Number of PINs Per Row:7 Row Spacing:- Current Rating (Max):1A Contact Material:Phosphor Bronze Contact Plating:Tin Operating Temp"
+			(at 40.132 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "SM07B-GHS-TB(LF)(SN)"
+			(at 40.132 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 40.132 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C495552"
+			(at 40.132 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 40.132 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "1x7P 间距:1.25mm 卧贴 系列:GH"
+			(at 40.132 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "19573ab7-6ba9-435c-aec1-787b8b156bed")
+		)
+		(pin "8"
+			(uuid "29166699-de87-4f48-b671-c60825526191")
+		)
+		(pin "1"
+			(uuid "38695092-e5d0-4ec9-8738-9936eeae38f8")
+		)
+		(pin "7"
+			(uuid "e50aca2c-56bf-45ff-93ba-00a9d5970f14")
+		)
+		(pin "9"
+			(uuid "0f8be89a-4718-43b8-b36c-e7a79821dafd")
+		)
+		(pin "4"
+			(uuid "43c1d701-2bf3-4fa2-9990-a5cb4423a9b3")
+		)
+		(pin "2"
+			(uuid "ba647a05-1f63-4db3-854b-381cd5b4d878")
+		)
+		(pin "6"
+			(uuid "67d94974-6013-421a-a9d0-ac25c4b33478")
+		)
+		(pin "3"
+			(uuid "431a3c79-5a6c-45b0-a701-6ae203084e3d")
+		)
+		(instances
+			(project "SL_PCB"
+				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
+					(reference "CN3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SL_PCB_EasyEDA_Lib:0154005.DR")
+		(at 50.292 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "262d9320-f2ff-4687-9223-5eb2c5928bb8")
+		(property "Reference" "F1"
+			(at 46.228 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 50.292 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SL_PCB_EasyEDA_Lib:FUSE-SMD_L9.8-W5.1"
+			(at 50.292 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0154005.DR/208035.html"
+			(at 50.292 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Type:Surface Mount Fuse (with Holder) Current Rating:5A Voltage Rating (AC):125V Voltage Rating (DC):125V Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C Interrupt Rating:50A Length:9.73mm Width:5.03mm Height:3.81mm"
+			(at 50.292 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0154005.DR"
+			(at 50.292 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse(美国力特)"
+			(at 50.292 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C206916"
+			(at 50.292 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 50.292 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "125V贴片式保险丝（含保险丝座）"
+			(at 50.292 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "322b4b45-58b5-4b0d-a629-465ac9dca22a")
+		)
+		(pin "2"
+			(uuid "9d565976-3f27-407f-b371-b6aa30c95dae")
+		)
+		(instances
+			(project "SL_PCB"
+				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 71.882 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2af63892-c168-4c1f-b8e5-a3b7db244fbe")
+		(property "Reference" "JP3"
+			(at 71.882 184.658 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 71.882 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 71.882 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.882 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 71.882 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4f280f3a-79a0-47c7-9b04-c2e821999867")
+		)
+		(pin "2"
+			(uuid "bcb429f9-f3d2-49e6-8246-3c615ceb98e9")
+		)
+		(instances
+			(project "SL_PCB"
+				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 76.962 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2f886a61-6a0b-4274-8873-f310baa55295")
+		(property "Reference" "JP5"
+			(at 76.962 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 76.962 81.534 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 76.962 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.962 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 76.962 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4ae0e6c2-c1d2-4f72-9cce-b2a80bb378c4")
+		)
+		(pin "2"
+			(uuid "0bdfae2a-2a4f-4018-8f37-23a294d014e3")
+		)
+		(instances
+			(project "SL_PCB"
+				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
+					(reference "JP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SL_PCB_EasyEDA_Lib:0154005.DR")
+		(at 50.292 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3353f28d-bf96-486a-b707-8e8ebac5e2d2")
+		(property "Reference" "F4"
+			(at 46.228 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 50.292 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SL_PCB_EasyEDA_Lib:FUSE-SMD_L9.8-W5.1"
+			(at 50.292 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0154005.DR/208035.html"
+			(at 50.292 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Type:Surface Mount Fuse (with Holder) Current Rating:5A Voltage Rating (AC):125V Voltage Rating (DC):125V Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C Interrupt Rating:50A Length:9.73mm Width:5.03mm Height:3.81mm"
+			(at 50.292 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0154005.DR"
+			(at 50.292 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse(美国力特)"
+			(at 50.292 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C206916"
+			(at 50.292 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 50.292 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "125V贴片式保险丝（含保险丝座）"
+			(at 50.292 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e2e3260-99e6-4dda-8aad-40b293b3c208")
+		)
+		(pin "2"
+			(uuid "12eb2b5f-58fb-4158-b415-97f69815570e")
+		)
+		(instances
+			(project "SL_PCB"
+				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
+					(reference "F4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SL_PCB_EasyEDA_Lib:0154005.DR")
+		(at 50.292 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3b9049d1-ae50-4a9f-8e5a-cae4acb63bd5")
+		(property "Reference" "F7"
+			(at 46.228 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 50.292 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SL_PCB_EasyEDA_Lib:FUSE-SMD_L9.8-W5.1"
+			(at 50.292 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0154005.DR/208035.html"
+			(at 50.292 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Type:Surface Mount Fuse (with Holder) Current Rating:5A Voltage Rating (AC):125V Voltage Rating (DC):125V Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C Interrupt Rating:50A Length:9.73mm Width:5.03mm Height:3.81mm"
+			(at 50.292 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0154005.DR"
+			(at 50.292 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse(美国力特)"
+			(at 50.292 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C206916"
+			(at 50.292 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 50.292 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "125V贴片式保险丝（含保险丝座）"
+			(at 50.292 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a542ca9e-c5d6-4208-9c11-f82ee82062f9")
+		)
+		(pin "2"
+			(uuid "d804c5bd-b01b-4102-b86e-03cfd78d3a73")
+		)
+		(instances
+			(project "SL_PCB"
+				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
+					(reference "F7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 51.562 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d8f92e9-dffe-4a6a-af08-8ec6a9ca9a85")
+		(property "Reference" "#PWR01"
+			(at 51.562 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 51.562 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 51.562 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 51.562 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 51.562 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ce0db22-1ff2-46a6-8246-6d2b8e7fd810")
+		)
+		(instances
+			(project "SL_PCB"
+				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SL_PCB:Longshot_N_Terminal")
+		(at 251.46 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3dd2d707-1869-4255-a73b-35bd605f17d0")
+		(property "Reference" "PAD1"
+			(at 258.826 45.5929 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Negative_Terminal"
+			(at 258.826 48.1329 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SL_PCB:Longshot_Negative_Terminal"
+			(at 263.144 39.878 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Longshot Negative Terminal"
+			(at 258.826 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3002d44-c1b7-4485-a30a-d0197f5b1f08")
+		)
+		(instances
+			(project "SL_PCB"
+				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
+					(reference "PAD1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 144.018 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "47a57d6f-2b46-4f63-99d5-b53a4d8067bf")
+		(property "Reference" "JP9"
+			(at 144.018 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 144.018 145.034 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 144.018 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.018 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 144.018 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7e616779-e7b8-4c37-9fa5-a1b6ccb0d1da")
+		)
+		(pin "1"
+			(uuid "c668ec68-1876-4115-bf90-c3109a92acca")
+		)
+		(instances
+			(project "SL_PCB"
+				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
+					(reference "JP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SL_PCB_EasyEDA_Lib:0154005.DR")
+		(at 50.292 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "509b311a-5b75-49b7-a83b-f12445804484")
+		(property "Reference" "F12"
+			(at 54.61 136.144 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 50.292 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SL_PCB_EasyEDA_Lib:FUSE-SMD_L9.8-W5.1"
+			(at 50.292 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0154005.DR/208035.html"
+			(at 50.292 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Type:Surface Mount Fuse (with Holder) Current Rating:5A Voltage Rating (AC):125V Voltage Rating (DC):125V Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C Interrupt Rating:50A Length:9.73mm Width:5.03mm Height:3.81mm"
+			(at 50.292 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0154005.DR"
+			(at 50.292 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse(美国力特)"
+			(at 50.292 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C206916"
+			(at 50.292 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 50.292 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "125V贴片式保险丝（含保险丝座）"
+			(at 50.292 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd1da8ed-7f92-4049-a12c-ead56d78131d")
+		)
+		(pin "2"
+			(uuid "92054568-b65d-47be-928a-2ae005a9b8c9")
+		)
+		(instances
+			(project "SL_PCB"
+				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
+					(reference "F12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SL_PCB_EasyEDA_Lib:0154005.DR")
+		(at 50.292 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5667a0d0-3b6a-402c-a40a-e31cf4aac3f7")
+		(property "Reference" "F14"
+			(at 54.61 138.684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 50.292 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SL_PCB_EasyEDA_Lib:FUSE-SMD_L9.8-W5.1"
+			(at 50.292 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0154005.DR/208035.html"
+			(at 50.292 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Type:Surface Mount Fuse (with Holder) Current Rating:5A Voltage Rating (AC):125V Voltage Rating (DC):125V Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C Interrupt Rating:50A Length:9.73mm Width:5.03mm Height:3.81mm"
+			(at 50.292 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0154005.DR"
+			(at 50.292 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse(美国力特)"
+			(at 50.292 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C206916"
+			(at 50.292 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 50.292 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "125V贴片式保险丝（含保险丝座）"
+			(at 50.292 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d8ea8318-30c5-4d2e-bcc0-8794e9a5a4f8")
+		)
+		(pin "2"
+			(uuid "362febf1-8666-4a58-89d8-93acdfd0a5bd")
+		)
+		(instances
+			(project "SL_PCB"
+				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
+					(reference "F14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SL_PCB_EasyEDA_Lib:0154005.DR")
+		(at 50.292 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "75b0c6e0-e5b0-4c03-b55b-c646b29d0949")
+		(property "Reference" "F5"
+			(at 46.228 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 50.292 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SL_PCB_EasyEDA_Lib:FUSE-SMD_L9.8-W5.1"
+			(at 50.292 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0154005.DR/208035.html"
+			(at 50.292 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Type:Surface Mount Fuse (with Holder) Current Rating:5A Voltage Rating (AC):125V Voltage Rating (DC):125V Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C Interrupt Rating:50A Length:9.73mm Width:5.03mm Height:3.81mm"
+			(at 50.292 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0154005.DR"
+			(at 50.292 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse(美国力特)"
+			(at 50.292 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C206916"
+			(at 50.292 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 50.292 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "125V贴片式保险丝（含保险丝座）"
+			(at 50.292 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b20b744a-0df4-400a-98dc-75eef5d4f1d9")
+		)
+		(pin "2"
+			(uuid "fd8a1654-c4d8-4e49-8240-22cde2716fe9")
+		)
+		(instances
+			(project "SL_PCB"
+				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
+					(reference "F5")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "SL_PCB:ET60S-D06-0-00-D06-X-V1-S")
-		(at 403.606 51.308 0)
+		(at 167.64 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3427,7 +8338,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b30a1cc-9cd4-4e93-9bfd-fb71691e5d80")
 		(property "Reference" "J35"
-			(at 403.606 38.354 0)
+			(at 167.64 30.226 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3437,7 +8348,7 @@
 			)
 		)
 		(property "Value" "ET60S-D06-0-00-D06-X-V1-S"
-			(at 403.606 40.894 0)
+			(at 167.64 32.766 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3447,7 +8358,7 @@
 			)
 		)
 		(property "Footprint" "SL_PCB:SAMTEC_ET60S-D06-0-00-D06-X-V1-S"
-			(at 403.606 51.308 0)
+			(at 167.64 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3459,7 +8370,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 403.606 51.308 0)
+			(at 167.64 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3470,7 +8381,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 403.606 51.308 0)
+			(at 167.64 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3481,7 +8392,7 @@
 			)
 		)
 		(property "PARTREV" "F"
-			(at 403.606 51.308 0)
+			(at 167.64 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3493,7 +8404,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 403.606 51.308 0)
+			(at 167.64 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3505,7 +8416,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "14.38mm"
-			(at 403.606 51.308 0)
+			(at 167.64 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3517,7 +8428,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samtec"
-			(at 403.606 51.308 0)
+			(at 167.64 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3820,6 +8731,2731 @@
 			(project "SL_PCB"
 				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
 					(reference "J35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 51.562 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c68cdfd-7d04-4e9c-b6e6-14158ee12b21")
+		(property "Reference" "#PWR03"
+			(at 51.562 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 51.562 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 51.562 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 51.562 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 51.562 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b143c4b3-1bde-4de5-9d80-daf3ce44e337")
+		)
+		(instances
+			(project "SL_PCB"
+				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 76.962 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8d53564f-f139-4813-8233-6af20aab3afd")
+		(property "Reference" "JP4"
+			(at 76.962 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 76.962 48.514 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 76.962 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.962 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 76.962 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2ed9659b-a829-4a03-b143-50d66a06d5e0")
+		)
+		(pin "2"
+			(uuid "4b23870a-f387-43a9-930b-2f8daec0fe26")
+		)
+		(instances
+			(project "SL_PCB"
+				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SL_PCB_EasyEDA_Lib:0154005.DR")
+		(at 50.292 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8fa51103-5878-4210-967f-3f34ec566d49")
+		(property "Reference" "F3"
+			(at 46.228 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 50.292 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SL_PCB_EasyEDA_Lib:FUSE-SMD_L9.8-W5.1"
+			(at 50.292 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0154005.DR/208035.html"
+			(at 50.292 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Type:Surface Mount Fuse (with Holder) Current Rating:5A Voltage Rating (AC):125V Voltage Rating (DC):125V Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C Interrupt Rating:50A Length:9.73mm Width:5.03mm Height:3.81mm"
+			(at 50.292 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0154005.DR"
+			(at 50.292 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse(美国力特)"
+			(at 50.292 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C206916"
+			(at 50.292 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 50.292 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "125V贴片式保险丝（含保险丝座）"
+			(at 50.292 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3f780f0c-aaa7-42b6-81fe-9792b774adc9")
+		)
+		(pin "2"
+			(uuid "37cfa4c4-ac31-4c82-8020-e75b8077dee7")
+		)
+		(instances
+			(project "SL_PCB"
+				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
+					(reference "F3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SL_PCB_EasyEDA_Lib:0154005.DR")
+		(at 50.292 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8fe947e5-70ff-4185-88df-e95ea198037c")
+		(property "Reference" "F8"
+			(at 54.102 131.064 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 50.292 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SL_PCB_EasyEDA_Lib:FUSE-SMD_L9.8-W5.1"
+			(at 50.292 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0154005.DR/208035.html"
+			(at 50.292 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Type:Surface Mount Fuse (with Holder) Current Rating:5A Voltage Rating (AC):125V Voltage Rating (DC):125V Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C Interrupt Rating:50A Length:9.73mm Width:5.03mm Height:3.81mm"
+			(at 50.292 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0154005.DR"
+			(at 50.292 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse(美国力特)"
+			(at 50.292 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C206916"
+			(at 50.292 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 50.292 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "125V贴片式保险丝（含保险丝座）"
+			(at 50.292 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc9e027d-6c18-47de-9132-6b311f765490")
+		)
+		(pin "2"
+			(uuid "01696fc6-f9cb-4368-aa6e-3738494a6287")
+		)
+		(instances
+			(project "SL_PCB"
+				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
+					(reference "F8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SL_PCB_EasyEDA_Lib:SM07B-GHS-TB(LF)(SN)")
+		(at 40.132 76.2 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "905d53d4-688d-4f83-913d-6c77eb2d0f44")
+		(property "Reference" "CN2"
+			(at 36.322 73.6601 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 40.132 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SL_PCB_EasyEDA_Lib:CONN-SMD_SM7B-GHS-TB-LF-SN"
+			(at 40.132 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200407/C495552_6029EB70946590F27D235F661EA3D952.pdf"
+			(at 40.132 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pins Structure:1x7P Pitch:1.25mm Mounting Style:Horizontal attachment Reference Series:GH Number of Pins:7P Number of Rows:1 Number of PINs Per Row:7 Row Spacing:- Current Rating (Max):1A Contact Material:Phosphor Bronze Contact Plating:Tin Operating Temp"
+			(at 40.132 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "SM07B-GHS-TB(LF)(SN)"
+			(at 40.132 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 40.132 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C495552"
+			(at 40.132 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 40.132 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "1x7P 间距:1.25mm 卧贴 系列:GH"
+			(at 40.132 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "df675dc1-869e-49ff-8f20-3c872255611d")
+		)
+		(pin "8"
+			(uuid "1fffbb8b-e1a1-4e6e-9e50-65bfdffd3db0")
+		)
+		(pin "1"
+			(uuid "efe84440-a9f2-46b6-bd47-4d6ecd764bbd")
+		)
+		(pin "7"
+			(uuid "0b0b84b8-5c41-4b9b-a0f8-97e05b9ac50f")
+		)
+		(pin "9"
+			(uuid "c5ec6f30-b760-4f9b-8d37-994a257468d0")
+		)
+		(pin "4"
+			(uuid "f351421a-7242-424b-846a-5af356e688d7")
+		)
+		(pin "2"
+			(uuid "c7f22171-3039-424c-b2cf-740e8104d0e4")
+		)
+		(pin "6"
+			(uuid "c1da632e-1fcb-45f5-9233-9b251f29a57d")
+		)
+		(pin "3"
+			(uuid "34799f5a-0756-440d-8b87-7fe29cbfa6ac")
+		)
+		(instances
+			(project "SL_PCB"
+				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
+					(reference "CN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 193.04 40.64 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a18a3f41-42f5-4407-8e42-cfa46a8037ea")
+		(property "Reference" "JP8"
+			(at 193.04 44.958 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 193.04 42.926 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 193.04 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 193.04 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "375b2498-410d-4bee-8f03-3505161c845f")
+		)
+		(pin "2"
+			(uuid "fc9651ef-cad8-4e28-b95b-fefcae8e1268")
+		)
+		(instances
+			(project "SL_PCB"
+				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
+					(reference "JP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SL_PCB_EasyEDA_Lib:0154005.DR")
+		(at 50.292 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ae550a2c-6c63-40a5-9a61-1c54b6ca9e1a")
+		(property "Reference" "F11"
+			(at 54.61 100.584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 50.292 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SL_PCB_EasyEDA_Lib:FUSE-SMD_L9.8-W5.1"
+			(at 50.292 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0154005.DR/208035.html"
+			(at 50.292 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Type:Surface Mount Fuse (with Holder) Current Rating:5A Voltage Rating (AC):125V Voltage Rating (DC):125V Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C Interrupt Rating:50A Length:9.73mm Width:5.03mm Height:3.81mm"
+			(at 50.292 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0154005.DR"
+			(at 50.292 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse(美国力特)"
+			(at 50.292 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C206916"
+			(at 50.292 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 50.292 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "125V贴片式保险丝（含保险丝座）"
+			(at 50.292 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4fa224ac-9adf-474b-9d75-62ab466f125c")
+		)
+		(pin "2"
+			(uuid "5f8316c9-305c-4766-8415-7bfa95f927ee")
+		)
+		(instances
+			(project "SL_PCB"
+				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
+					(reference "F11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SL_PCB_EasyEDA_Lib:SM07B-GHS-TB(LF)(SN)")
+		(at 40.132 43.18 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b97b3ade-d6ee-4c76-a6ed-3ab09a3a6582")
+		(property "Reference" "CN1"
+			(at 36.322 40.6401 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 40.132 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SL_PCB_EasyEDA_Lib:CONN-SMD_SM7B-GHS-TB-LF-SN"
+			(at 40.132 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200407/C495552_6029EB70946590F27D235F661EA3D952.pdf"
+			(at 40.132 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pins Structure:1x7P Pitch:1.25mm Mounting Style:Horizontal attachment Reference Series:GH Number of Pins:7P Number of Rows:1 Number of PINs Per Row:7 Row Spacing:- Current Rating (Max):1A Contact Material:Phosphor Bronze Contact Plating:Tin Operating Temp"
+			(at 40.132 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "SM07B-GHS-TB(LF)(SN)"
+			(at 40.132 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 40.132 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C495552"
+			(at 40.132 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 40.132 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "1x7P 间距:1.25mm 卧贴 系列:GH"
+			(at 40.132 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "e06cfaf9-518b-4949-8c7c-2bd8957abedc")
+		)
+		(pin "8"
+			(uuid "82929f77-1183-46ed-a217-78f298d655db")
+		)
+		(pin "1"
+			(uuid "37a5c0bb-376e-4226-bc4d-9f2ecd422c26")
+		)
+		(pin "7"
+			(uuid "64f47b0a-931b-484c-b679-1a03a2c46d92")
+		)
+		(pin "9"
+			(uuid "dc9d9a7c-80dd-4e90-a026-9dcafe99ba63")
+		)
+		(pin "4"
+			(uuid "a221b5b7-fe54-4fec-80f3-4c2a79974002")
+		)
+		(pin "2"
+			(uuid "2c1734ca-8be9-4f85-9daf-00158adb117f")
+		)
+		(pin "6"
+			(uuid "eb2c3205-e389-49b6-88ac-b7294f895af4")
+		)
+		(pin "3"
+			(uuid "eed8236f-c774-4f20-8e47-34d218d562c7")
+		)
+		(instances
+			(project "SL_PCB"
+				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
+					(reference "CN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SL_PCB_EasyEDA_Lib:0154005.DR")
+		(at 50.292 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d9164304-94c3-4ba0-b77f-0f5a0f52d50b")
+		(property "Reference" "F13"
+			(at 54.61 103.124 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 50.292 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SL_PCB_EasyEDA_Lib:FUSE-SMD_L9.8-W5.1"
+			(at 50.292 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0154005.DR/208035.html"
+			(at 50.292 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Type:Surface Mount Fuse (with Holder) Current Rating:5A Voltage Rating (AC):125V Voltage Rating (DC):125V Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C Interrupt Rating:50A Length:9.73mm Width:5.03mm Height:3.81mm"
+			(at 50.292 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0154005.DR"
+			(at 50.292 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse(美国力特)"
+			(at 50.292 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C206916"
+			(at 50.292 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 50.292 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "125V贴片式保险丝（含保险丝座）"
+			(at 50.292 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b2513d9-809d-457f-982f-a87989d3a9bf")
+		)
+		(pin "2"
+			(uuid "837cd1a5-3e44-4006-8c77-4d340afad147")
+		)
+		(instances
+			(project "SL_PCB"
+				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
+					(reference "F13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 76.962 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dcd156a3-cb12-4975-b9bd-d98876af81c5")
+		(property "Reference" "JP7"
+			(at 76.962 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 76.962 147.574 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 76.962 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.962 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 76.962 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "028194f8-bbef-4145-a8da-7922bbec0876")
+		)
+		(pin "2"
+			(uuid "894e6708-b2db-4557-835e-5594b94b40be")
+		)
+		(instances
+			(project "SL_PCB"
+				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
+					(reference "JP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SL_PCB_EasyEDA_Lib:SM07B-GHS-TB(LF)(SN)")
+		(at 40.132 142.24 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ddd7d4bf-a701-460b-aee6-8adfd100cb6f")
+		(property "Reference" "CN4"
+			(at 36.322 139.7001 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 40.132 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SL_PCB_EasyEDA_Lib:CONN-SMD_SM7B-GHS-TB-LF-SN"
+			(at 40.132 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200407/C495552_6029EB70946590F27D235F661EA3D952.pdf"
+			(at 40.132 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pins Structure:1x7P Pitch:1.25mm Mounting Style:Horizontal attachment Reference Series:GH Number of Pins:7P Number of Rows:1 Number of PINs Per Row:7 Row Spacing:- Current Rating (Max):1A Contact Material:Phosphor Bronze Contact Plating:Tin Operating Temp"
+			(at 40.132 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "SM07B-GHS-TB(LF)(SN)"
+			(at 40.132 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 40.132 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C495552"
+			(at 40.132 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 40.132 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "1x7P 间距:1.25mm 卧贴 系列:GH"
+			(at 40.132 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "4e9fd7a4-0024-4b4e-bd5f-63fc5c639ff6")
+		)
+		(pin "8"
+			(uuid "c242f275-c609-4498-9a91-685d5f1523e5")
+		)
+		(pin "1"
+			(uuid "7d7a5608-984f-4e72-ac6c-cdcaeaa992a9")
+		)
+		(pin "7"
+			(uuid "b2db3237-f4ce-4c1a-b15a-e81ee220d832")
+		)
+		(pin "9"
+			(uuid "e44d12bc-39ce-494b-930a-43ed3aa278a9")
+		)
+		(pin "4"
+			(uuid "193d581b-f6ab-4c48-915d-1a13a7f04ac8")
+		)
+		(pin "2"
+			(uuid "6f1ba4d6-3ce8-46a9-8980-b3f6fa7450b3")
+		)
+		(pin "6"
+			(uuid "19e2e526-bbd9-4fe7-a7ad-036ead5dd234")
+		)
+		(pin "3"
+			(uuid "e0da6cf0-1e98-4f3b-8052-31ca99811c49")
+		)
+		(instances
+			(project "SL_PCB"
+				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
+					(reference "CN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SL_PCB_EasyEDA_Lib:430451612")
+		(at 54.102 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de6e0f81-57cb-402e-a1aa-3250324fb2e8")
+		(property "Reference" "CN5"
+			(at 54.102 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 54.102 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SL_PCB_EasyEDA_Lib:CONN-TH_430451612"
+			(at 54.102 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/430/43045/430451612_sd.pdf?inline\\"
+			(at 54.102 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pins Structure:2x8P Pitch:3mm Mounting Type:Through Hole Reference Series:Micro-Fit(MX 3.0) Number of Pins:16P Number of Rows:2 Number of PINs Per Row:8 Row Spacing:3mm Current Rating:8.5A Contact Material:Brass Contact Plating:Tin Operating Temperature:-"
+			(at 54.102 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "430451612"
+			(at 54.102 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "MOLEX"
+			(at 54.102 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C491447"
+			(at 54.102 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 54.102 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "2x8P 间距:3mm 直插 系列:Micro-Fit(MX 3.0)"
+			(at 54.102 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "e12c630b-2e46-4c40-9f85-9afbc78c9460")
+		)
+		(pin "15"
+			(uuid "6b134231-4b69-4921-951b-523a694a0c6e")
+		)
+		(pin "10"
+			(uuid "1b91b6d5-fa37-4b73-8121-59d24ce4ff12")
+		)
+		(pin "7"
+			(uuid "86647953-c044-4edc-82d5-93da264b8dbf")
+		)
+		(pin "3"
+			(uuid "c149587d-7d41-41ad-9093-68bd03cc56c8")
+		)
+		(pin "14"
+			(uuid "da8250e2-4e89-49c3-ac29-2740d2c61e2a")
+		)
+		(pin "9"
+			(uuid "abcaa5b9-4dae-4c79-8beb-73271ea7ce6d")
+		)
+		(pin "1"
+			(uuid "05231c63-399b-4bcc-8fc9-13dbd42f7138")
+		)
+		(pin "4"
+			(uuid "bd2bdb27-2ec7-488d-b450-ba7ae300890a")
+		)
+		(pin "5"
+			(uuid "858a6984-16d9-4a9a-ad13-fae28eff0bb1")
+		)
+		(pin "2"
+			(uuid "e203d0ca-78b4-4b8e-880e-5297b4ef81d9")
+		)
+		(pin "8"
+			(uuid "ffdb1c0d-a6ee-42a6-9485-5b3c9c6492ef")
+		)
+		(pin "11"
+			(uuid "cec3b236-a4ed-4bc4-8bd1-0f529718b2c1")
+		)
+		(pin "12"
+			(uuid "e34b1bcb-4d6c-4bce-beac-92b49d3a898a")
+		)
+		(pin "13"
+			(uuid "e1969d07-7a6b-447c-8da9-32e8304788c5")
+		)
+		(pin "16"
+			(uuid "1bc6ca0d-499a-43e6-b6fc-de4890320957")
+		)
+		(instances
+			(project "SL_PCB"
+				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
+					(reference "CN5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SL_PCB_EasyEDA_Lib:0154005.DR")
+		(at 50.292 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e074a680-fd2b-414c-8a40-6485f2c67046")
+		(property "Reference" "F0"
+			(at 54.356 32.004 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 50.292 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SL_PCB_EasyEDA_Lib:FUSE-SMD_L9.8-W5.1"
+			(at 50.292 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0154005.DR/208035.html"
+			(at 50.292 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Type:Surface Mount Fuse (with Holder) Current Rating:5A Voltage Rating (AC):125V Voltage Rating (DC):125V Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C Interrupt Rating:50A Length:9.73mm Width:5.03mm Height:3.81mm"
+			(at 50.292 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0154005.DR"
+			(at 50.292 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse(美国力特)"
+			(at 50.292 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C206916"
+			(at 50.292 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 50.292 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "125V贴片式保险丝（含保险丝座）"
+			(at 50.292 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "04301503-791c-4b94-9fe3-2364afb60e23")
+		)
+		(pin "2"
+			(uuid "86e818e5-6737-455b-b0a4-5a005ec06371")
+		)
+		(instances
+			(project "SL_PCB"
+				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
+					(reference "F0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SL_PCB_EasyEDA_Lib:0154005.DR")
+		(at 50.292 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e1089eec-696c-45b0-b942-957cebacba86")
+		(property "Reference" "F10"
+			(at 54.61 133.604 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 50.292 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SL_PCB_EasyEDA_Lib:FUSE-SMD_L9.8-W5.1"
+			(at 50.292 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0154005.DR/208035.html"
+			(at 50.292 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Type:Surface Mount Fuse (with Holder) Current Rating:5A Voltage Rating (AC):125V Voltage Rating (DC):125V Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C Interrupt Rating:50A Length:9.73mm Width:5.03mm Height:3.81mm"
+			(at 50.292 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0154005.DR"
+			(at 50.292 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse(美国力特)"
+			(at 50.292 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C206916"
+			(at 50.292 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 50.292 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "125V贴片式保险丝（含保险丝座）"
+			(at 50.292 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "77e6b959-5755-4f19-890a-3ea853d1085d")
+		)
+		(pin "2"
+			(uuid "42d7c9a2-234c-49d0-82e3-2f2c94ba53fa")
+		)
+		(instances
+			(project "SL_PCB"
+				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
+					(reference "F10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SL_PCB_EasyEDA_Lib:0154005.DR")
+		(at 50.292 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e1f6b5bf-6c2e-46ae-943a-a65c45cd276c")
+		(property "Reference" "F2"
+			(at 46.228 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 50.292 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SL_PCB_EasyEDA_Lib:FUSE-SMD_L9.8-W5.1"
+			(at 50.292 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0154005.DR/208035.html"
+			(at 50.292 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Type:Surface Mount Fuse (with Holder) Current Rating:5A Voltage Rating (AC):125V Voltage Rating (DC):125V Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C Interrupt Rating:50A Length:9.73mm Width:5.03mm Height:3.81mm"
+			(at 50.292 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0154005.DR"
+			(at 50.292 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse(美国力特)"
+			(at 50.292 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C206916"
+			(at 50.292 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 50.292 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "125V贴片式保险丝（含保险丝座）"
+			(at 50.292 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "183246f1-1328-4473-8465-0588eb185f84")
+		)
+		(pin "2"
+			(uuid "3ebd26e5-45b7-4fc6-8379-0ac0bd11512e")
+		)
+		(instances
+			(project "SL_PCB"
+				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 51.562 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec76c166-6fe0-4bd9-b801-c170f8bc4995")
+		(property "Reference" "#PWR02"
+			(at 51.562 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 51.562 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 51.562 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 51.562 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 51.562 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "911fb81d-93a8-48de-b992-1e75ac931af8")
+		)
+		(instances
+			(project "SL_PCB"
+				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SL_PCB:AMT0450003DB0000G")
+		(at 218.44 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed93c4ec-22f6-4bc1-b36f-fcd5f02ccf41")
+		(property "Reference" "J2"
+			(at 228.6 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AMT0450003DB0000G"
+			(at 228.6 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SL_PCB:AMT0450003DB0000G"
+			(at 234.95 211.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.anytek.com.cn/Upload/AMT45003DB-91619770b633481b851135e6d1c1bd28.pdf?fbclid=IwZXh0bgNhZW0CMTEAAR79c1L2mcDs0CoZcBK-E5qsXP_d4Rg51Jntg6nmOemahYpdb-XkfpxHXOJxjQ_aem_dlgVXcx349YY-XU5LhBCmA"
+			(at 234.95 311.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Terminals Current (A) : 150AScrew : M5Torque : 15 lbf.in BrassTerminal Part+Steel Nut (plating : matte tin)Pin out :  4PINMount Type : DIP"
+			(at 218.948 123.444 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "10.4"
+			(at 234.95 511.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "523-AMT0450003DB000G"
+			(at 234.95 611.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Anytek/AMT0450003DB0000G?qs=ST9lo4GX8V2tfjjMM7mX%252Bw%3D%3D"
+			(at 234.95 711.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Amphenol"
+			(at 234.95 811.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AMT0450003DB0000G"
+			(at 234.95 911.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3"
+			(uuid "6fb50de2-7caa-4a6d-95ea-3d9553150c3a")
+		)
+		(pin "4"
+			(uuid "9c9016b4-224b-4d0a-8641-32a0fd678a63")
+		)
+		(pin "1"
+			(uuid "89993399-9b1b-483d-bf12-9d7781eba045")
+		)
+		(pin "2"
+			(uuid "57322515-7deb-4e83-bbfe-2d280faf1cd9")
+		)
+		(instances
+			(project "SL_PCB"
+				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 76.962 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eeb52fcc-5c96-4809-872e-26a3c747ff20")
+		(property "Reference" "JP6"
+			(at 76.962 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 76.962 114.554 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 76.962 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.962 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 76.962 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "418f7e76-5544-49e2-83b7-62dc82dddd17")
+		)
+		(pin "2"
+			(uuid "ba93e0c8-3b3e-42b5-9b4d-b52920055a90")
+		)
+		(instances
+			(project "SL_PCB"
+				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
+					(reference "JP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 51.562 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef4b9e71-5323-43d1-8a75-6ceafcae6905")
+		(property "Reference" "#PWR04"
+			(at 51.562 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 51.562 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 51.562 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 51.562 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 51.562 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cce9386a-afcb-42bf-af14-aff66e71ee31")
+		)
+		(instances
+			(project "SL_PCB"
+				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 92.202 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f295affd-0a93-4f1e-a21a-779347a9d802")
+		(property "Reference" "JP2"
+			(at 92.202 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Bridged"
+			(at 92.202 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SL_PCB:SL_SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 92.202 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.202 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 92.202 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15568015-56a9-4369-a795-30e2ca03a36f")
+		)
+		(pin "2"
+			(uuid "00c2cf26-9b00-4dc4-a98a-3606ab553147")
+		)
+		(instances
+			(project "SL_PCB"
+				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 50.292 29.464 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f41e2712-d5bd-4bde-9f95-d38c214d54d8")
+		(property "Reference" "JP1"
+			(at 50.292 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Bridged"
+			(at 56.134 28.194 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "SL_PCB:SL_SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 50.292 29.464 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.292 29.464 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 50.292 29.464 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "493c7245-57da-4f21-96fb-5290297cb15f")
+		)
+		(pin "2"
+			(uuid "88480a2c-8cfc-47ef-b166-0d3a061e1fa3")
+		)
+		(instances
+			(project "SL_PCB"
+				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SL_PCB_EasyEDA_Lib:0154005.DR")
+		(at 50.292 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f53310e1-23d8-45a0-b33b-5ec8fadcb542")
+		(property "Reference" "F6"
+			(at 46.228 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 50.292 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SL_PCB_EasyEDA_Lib:FUSE-SMD_L9.8-W5.1"
+			(at 50.292 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0154005.DR/208035.html"
+			(at 50.292 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Type:Surface Mount Fuse (with Holder) Current Rating:5A Voltage Rating (AC):125V Voltage Rating (DC):125V Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C Interrupt Rating:50A Length:9.73mm Width:5.03mm Height:3.81mm"
+			(at 50.292 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0154005.DR"
+			(at 50.292 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse(美国力特)"
+			(at 50.292 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C206916"
+			(at 50.292 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 50.292 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "125V贴片式保险丝（含保险丝座）"
+			(at 50.292 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2b8efd76-f731-42ef-abfa-703d066dafb4")
+		)
+		(pin "2"
+			(uuid "0043e3e0-637a-4d11-9b91-a29f6c2572c4")
+		)
+		(instances
+			(project "SL_PCB"
+				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
+					(reference "F6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SL_PCB:AMT0450003DB0000G")
+		(at 218.44 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fab30dd3-f326-43ab-b2e4-758998694bfa")
+		(property "Reference" "J1"
+			(at 228.6 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AMT0450003DB0000G"
+			(at 228.6 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SL_PCB:AMT0450003DB0000G"
+			(at 234.95 196.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.anytek.com.cn/Upload/AMT45003DB-91619770b633481b851135e6d1c1bd28.pdf?fbclid=IwZXh0bgNhZW0CMTEAAR79c1L2mcDs0CoZcBK-E5qsXP_d4Rg51Jntg6nmOemahYpdb-XkfpxHXOJxjQ_aem_dlgVXcx349YY-XU5LhBCmA"
+			(at 234.95 296.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Terminals Current (A) : 150AScrew : M5Torque : 15 lbf.in BrassTerminal Part+Steel Nut (plating : matte tin)Pin out :  4PINMount Type : DIP"
+			(at 218.948 108.204 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "10.4"
+			(at 234.95 496.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "523-AMT0450003DB000G"
+			(at 234.95 596.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Anytek/AMT0450003DB0000G?qs=ST9lo4GX8V2tfjjMM7mX%252Bw%3D%3D"
+			(at 234.95 696.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Amphenol"
+			(at 234.95 796.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AMT0450003DB0000G"
+			(at 234.95 896.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3"
+			(uuid "9881faa4-23ab-4398-b27e-3db39bb31c0d")
+		)
+		(pin "4"
+			(uuid "0507e2b0-43d3-486f-92c4-4583d7f7bdfb")
+		)
+		(pin "1"
+			(uuid "050bd5ce-8fd8-4c38-a653-a385a51ad4bf")
+		)
+		(pin "2"
+			(uuid "9ec4535a-a2ef-46ff-8862-1d502a97172a")
+		)
+		(instances
+			(project "SL_PCB"
+				(path "/2e7a8612-84b6-48bc-808d-73f9aa4adf59"
+					(reference "J1")
 					(unit 1)
 				)
 			)

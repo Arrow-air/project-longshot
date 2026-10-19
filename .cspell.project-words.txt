@@ -3,6 +3,7 @@ ACAD
 ACADVER
 ADC
 Adhes
+Aeo͊
 AIDGSR
 Alibaba
 Aluminium
@@ -17,6 +18,7 @@ bbox
 bboxes
 BCAN
 BCEC
+Beschreibung
 BEZIER
 bidi
 BLM
@@ -53,6 +55,7 @@ CRCW
 creategerberjobfile
 crossoutdnponfab
 CTE
+CUST
 cvpcb
 Datasheet
 demorgan
@@ -75,14 +78,18 @@ dxfimperialunits
 dxfpolygonmode
 dxfusepcbnewfont
 eabi
+EASYEDA
 Ebike
 edir
 eeschema
+efoo
+elibz
 Enable
 ENDBLK
 ENDSEC
 ENDTAB
 ENNOID
+esym
 Farino
 FIMKO
 GCM
@@ -116,6 +123,8 @@ IRFL
 ISOMD
 isoSPI
 JEDEC
+Jhed
+JLCEDA
 JNEA
 jobsets
 JTCK
@@ -130,6 +139,9 @@ KIPRJMOD
 KL
 KRX
 layerselection
+LCSC
+Licence
+licences
 LiFePO4
 Linetype
 Linkdata
@@ -206,6 +218,7 @@ polyline
 polylines
 PRDDFN
 Precharge
+prepreg
 PROJECTNAME
 psnegative
 PUL
@@ -299,6 +312,7 @@ Vrwm
 VSSA
 VSSOP
 Vusb
+WDEQ
 WIREFRAME
 WSLP
 Wuerth
@@ -309,6 +323,5 @@ Zener
 zmax
 zmin
 ztop
-Licence
-licence
-licences
+ˍJxd
+ФZ'Ӣ
