@@ -3,6 +3,7 @@ ACAD
 ACADVER
 ADC
 Adhes
+Aeo͊
 AIDGSR
 Alibaba
 Aluminium
@@ -81,12 +82,14 @@ EASYEDA
 Ebike
 edir
 eeschema
+efoo
 elibz
 Enable
 ENDBLK
 ENDSEC
 ENDTAB
 ENNOID
+esym
 Farino
 FIMKO
 GCM
@@ -120,6 +123,7 @@ IRFL
 ISOMD
 isoSPI
 JEDEC
+Jhed
 JLCEDA
 JNEA
 jobsets
@@ -311,6 +315,7 @@ Vrwm
 VSSA
 VSSOP
 Vusb
+WDEQ
 WIREFRAME
 WSLP
 Wuerth
@@ -321,3 +326,5 @@ Zener
 zmax
 zmin
 ztop
+ˍJxd
+ФZ'Ӣ
