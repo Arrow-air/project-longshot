@@ -1,0 +1,9 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"CN1, CN2, CN3, CN4",CONN-SMD_SM7B-GHS-TB-LF-SN,4,~,
+CN5,CONN-TH_430451612,1,~,
+"F0, F1, F10, F11, F12, F13, F14, F2, F3, F4, F5, F6, F7, F8, F9",FUSE-SMD_L9.8-W5.1,15,~,
+"J1, J2",AMT0450003DB0000G,2,AMT0450003DB0000G,
+J35,SAMTEC_ET60S-D06-0-00-D06-X-V1-S,1,ET60S-D06-0-00-D06-X-V1-S,
+"JP1, JP2",SL_SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm,2,Jumper_2_Small_Bridged,
+PAD1,Longshot_Negative_Terminal,1,Negative_Terminal,
+PAD2,Longshot_Positive_Terminal,1,Positive_Terminal,
